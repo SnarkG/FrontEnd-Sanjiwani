@@ -1,0 +1,545 @@
+@font-face {
+	font-family: "Flaticon";
+	src: url("../fonts/flaticon/Flaticon.eot");
+	src: url("../fonts/flaticon/Flaticon.eot?#iefix") format("embedded-opentype"),
+	url("../fonts/flaticon/Flaticon.woff") format("woff"),
+	url("../fonts/flaticon/Flaticon.ttf") format("truetype"),
+	url("../fonts/flaticon/Flaticon.svg#Flaticon") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	@font-face {
+		font-family: "Flaticon";
+		src: url("../fonts/flaticon/Flaticon.svg#Flaticon") format("svg");
+	}
+}
+
+/* Flaticon */
+
+/*Font Awesome*/
+@font-face {
+  font-family: "Font Awesome 5 Free";
+  src: url("../fonts/fontawesome/fa-solid-900.eot");
+  src: url("../fonts/fontawesome/fa-solid-900.eot?#iefix") format("embedded-opentype"),
+  url("../fonts/fontawesome/fa-solid-900.woff") format("woff"),
+  url("../fonts/fontawesome/fa-solid-900.ttf") format("truetype"),
+  url("../fonts/fontawesome/fa-solid-900.svg#fontawesome") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Font Awesome 5 Free";
+    src:url("../fonts/fontawesome/fa-solid-900.svg#fontawesome") format("svg");
+  }
+}
+/*
+Flaticon icon font: Flaticon
+Creation date: 13/09/2018 03:24
+*/
+[class^="flaticon-"]:before,
+[class*=" flaticon-"]:before {
+  font-family: Flaticon;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  font-size: 1.8rem;
+  bottom: 0;
+  right: 0;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+
+.fi:before {
+  display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  font-size: 1.8rem;
+  bottom: 0;
+  right: 0;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+/*Font awesome */
+ .icon::before {
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    text-decoration: inherit;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .login::before {
+    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f007";
+  }
+  .icon-password::before {
+    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f023";
+  }
+  .icon-email::before {
+    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f0e0";
+  }
+  .icon-mobile::before {
+    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f2a0";
+  }
+  .icon-map::before {
+    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f041";
+  }
+  .icon-search-map::before {
+    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f689";
+  }
+  .icon-close::before{
+    font-family: "Font Awesome 5 Free"; font-weight: 400;content:"\f00d";
+  }
+  .icon-star::before {
+    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f005";
+  }
+.icon-home::before {
+    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f015";
+  }
+.icon-clock::before {
+    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f017";
+  }
+.icon-cart::before {
+    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f07a";
+  }
+.icon-profile::before {
+    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f007";
+  }
+.icon-map-2::before {
+    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f3c5";
+  }
+.icon-up-arrow::before {
+    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f062";
+  }
+.icon-down-arrow::before {
+    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f063";
+  }
+.icon-back-arrow::before {
+    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f060";
+  }
+.icon-right-arrow::before {
+    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f061";
+  }
+  .icon-angle-left-arrow::before {
+    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f104";
+  }
+.icon-angle-right-arrow::before {
+    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f105";
+  }
+.icon-logout::before {
+    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f011";
+  }
+.icon-check-circle::before {
+    font-family: "Font Awesome 5 Free"; font-weight: 400; content: "\f058";
+  }
+.icon-search::before {
+    font-family: "Font Awesome 5 Free"; font-weight: 400; content: "\f002";
+  }
+.icon-location-search::before {
+    font-family: "Font Awesome 5 Free"; font-weight: 400; content: "\f689";
+  }
+.icon-pencil-edit::before {
+    font-family: "Font Awesome 5 Free"; font-weight: 400; content: "\f303";
+  }
+.icon-male::before {
+    font-family: "Font Awesome 5 Free"; font-weight: 400; content: "\f222";
+  }
+.icon-camera::before {
+    font-family: "Font Awesome 5 Free"; font-weight: 400; content: "\f030";
+  }
+.iconRemove::before {
+    font-family: "Font Awesome 5 Free"; font-weight: 400; content: "\f1f8";
+  }
+.icon-addUser::before {
+    font-family: "Font Awesome 5 Free"; font-weight: 400; content: "\f234";
+  }
+.icon-history::before {
+    font-family: "Font Awesome 5 Free"; font-weight: 400; content: "\f1da";
+  }
+.icon-service::before {
+    font-family: "Font Awesome 5 Free"; font-weight: 400; content: "\f0c4";
+  }
+.icon-rupees::before {
+    font-family: "Font Awesome 5 Free"; font-weight: 400; content: "\f156";
+  }
+.icon-menuDot::before {
+    font-family: "Font Awesome 5 Free"; content: "\f142";
+  }
+.icon-crown::before {
+    font-family: "Font Awesome 5 Free"; font-weight: 400; content: "\f521";
+  }
+.fa-bell:before {
+  font-family: "Font Awesome 5 Free"; font-weight: 400;content: "\f0f3";
+}
+.icon-historyBook::before{
+font-family: "Font Awesome 5 Free"; font-weight: 400;content:"\f02d";
+}
+.icon-eye::before{
+font-family: "Font Awesome 5 Free"; font-weight: 400;content:"\f06e";
+}
+.icon-eye-slash::before{
+  font-family: "Font Awesome 5 Free"; font-weight: 400;content:"\f070";
+  }
+.icon-heart::before{
+  font-family: "Font Awesome 5 Free"; font-weight: 400;content:"\f004";color:#d10303;
+  font-size: 24px;
+}
+.icon-star-rating::before {
+  font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f005";color:#ffbc02;font-size: 8px;
+}
+.icon-star-pdrating::before {
+  font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f005";color:#ffbc02;font-size: 18px;
+}
+.icon-star-reviewRating::before {
+  font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f005";color:#ffbc02;font-size: 14px;
+}
+.icon-star-review::before {
+  font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f005";color:#ffbc02;font-size: 12px;
+}
+.icon-cart::before {
+  font-family: "Font Awesome 5 Free"; font-weight: 400; content: "\f07a";color: #aaa;font-size: 18px;
+}
+.icon-removeCart::before {
+    font-family: "Font Awesome 5 Free"; font-weight: 400; content: "\f1f8";color: #aaa;font-size: 14px;
+  }
+.icon-download::before {
+  font-family: "Font Awesome 5 Free"; font-weight: 400; content: "\f019";color: #aaa;font-size: 14px;
+}
+.icon-shield-secure::before {
+  font-family: "Font Awesome 5 free"; font-weight: 400; content: "\f132";
+}
+.icon-lock::before {
+  font-family: "Font Awesome 5 free"; font-weight: 400; content: "\f023";
+}
+
+.icon-id-card::before {
+  font-family: "Font Awesome 5 free"; font-weight: 400; content: "\f47f";
+}
+.icon-fingerPrint::before {
+  font-family: "Font Awesome 5 free"; font-weight: 400; content: "\f577";
+}
+.icon-id-card::before {
+  font-family: "Font Awesome 5 free"; font-weight: 400; content: "\f47f";
+}
+.icon-id-card-badge::before {
+  font-family: "Font Awesome 5 free"; font-weight: 400; content: "\f2c1";
+}
+.icon-address-card::before {
+  font-family: "Font Awesome 5 free"; font-weight: 400; content: "\f2bb";
+}
+.icon-basket::before {
+  font-family: "Font Awesome 5 free"; font-weight: 400; content: "\f291";
+}
+.icon-bullhorn::before {
+  font-family: "Font Awesome 5 free"; font-weight: 400; content: "\f0a1";
+}
+.icon-males::before {
+  font-family: "Font Awesome 5 free"; font-weight: 400; content: "\f183";
+}
+.icon-female::before {
+  font-family: "Font Awesome 5 free"; font-weight: 400; content: "\f182";
+}
+.icon-delete::before {
+  font-family: "Font Awesome 5 free"; font-weight: 400; content: "\f00d";
+}
+
+
+/* ************** Faces css ********************* */
+.icon-smile::before{
+  font-family: "Font Awesome 5 Free"; font-weight: 400;content:"\f118";
+  font-size: 40px;
+  color: #000;
+  
+}
+.icon-smile-beam::before{
+  font-family: "Font Awesome 5 Free"; font-weight: 400;content:"\f5b8";
+  font-size: 40px;
+  color: #000;
+}
+.icon-smile-wink::before{
+  font-family: "Font Awesome 5 Free"; font-weight: 400;content:"\f4da";
+  font-size: 40px;
+  color: #000;
+}
+.icon-tired::before{
+  font-family: "Font Awesome 5 Free"; font-weight: 400;content:"\f5c8";
+  font-size: 40px;
+  color: #000;
+}
+.icon-sad-cry::before{
+  font-family: "Font Awesome 5 Free"; font-weight: 400;content:"\f5b3";
+  font-size: 40px;
+  color: #000;
+}
+.icon-sad-tear::before{
+  font-family: "Font Awesome 5 Free"; font-weight: 400;content:"\f5b4";
+  font-size: 40px;
+  color: #000;
+}
+.icon-angry::before{
+  font-family: "Font Awesome 5 Free"; font-weight: 400;content:"\f556";
+  font-size: 40px;
+  color: #888;
+}
+.icon-frown::before{
+  font-family: "Font Awesome 5 Free"; font-weight: 400;content:"\f119";
+  font-size: 40px;
+  color: #888;
+}
+
+/* ************** End Faces css ********************* */
+.icon-share-app::before{
+  font-family: "Font Awesome 5 Free"; font-weight: 400;content:"\f542";
+  font-size: 14px;
+  color: #888;
+}
+.icon-question::before{
+  font-family: "Font Awesome 5 Free"; font-weight: 400;content:"\f059";
+  font-size: 14px;
+  color: #888;
+}
+.icon-credit::before{
+  font-family: "Font Awesome 5 Free"; font-weight: 400;content:"\f555";
+  font-size: 14px;
+  color: #888;
+}
+.icon-setting::before{
+  font-family: "Font Awesome 5 Free"; font-weight: 400;content:"\f013";
+  font-size: 14px;
+  color: #888;
+}
+.icon-logout-new::before {
+  font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f011";
+  font-size: 14px;
+  color: #888;
+}
+.icon-language::before {
+  font-family: "Font Awesome 5 free"; font-weight: 400; content: "\f1ab";
+  font-size: 14px;
+  color: #888;
+}
+.icon-filters::before {
+  font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f0b0";
+  font-size: 20px;
+  color: #888;
+}
+.icon-sort::before {
+  font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f883";
+  font-size: 20px;
+  color: #888;
+}
+
+
+
+
+.flaticon-chat-4:before {
+  content: "\f199";
+  font-size: 18px;
+}
+.flaticon-star-1:before {
+  content: "\f15f";
+  font-size: 14px;
+}
+.flaticon-star-2:before {
+  content: "\f15f";
+  color: #ffbc02;
+  font-size: 14px;
+}
+.icon-starRating::before {
+  font-family: "Font Awesome 5 Free";font-size: 14px; font-weight: 900; content: "\f005";color: #ffbc02;
+}
+
+/* ******** rating popup **************** */
+.flaticon-star-Popup:before {
+  content: "\f15f";
+  font-size: 30px;
+  padding-right: 6px;
+}
+.icon-starRatingPopup::before {
+  font-family: "Font Awesome 5 Free";font-size: 30px; font-weight: 900; content: "\f005";color: #fbff02;padding-right: 6px;
+}
+.like-Rating::before {
+  font-family: "Font Awesome 5 Free";font-size: 14px; font-weight: 900; content: "\f004";color: #d10303;font-size: 24px;
+}
+
+.flaticon-like-1:before {
+  content: "\f162";
+  font-size: 24px;
+}
+
+.flaticon-like:before {
+  content: "\f163";
+  font-size: 24px;
+}
+.flaticon-cart-1:before {
+  content: "\f1a9";
+}
+
+.flaticon-cart:before {
+  content: "\f1aa";
+}
+.flaticon-Empty-cart:before {
+  content: "\f1a9";
+  font-size: 6.8rem !important;
+}
+.flaticon-price-tag:before {
+  content: "\f1ab";
+}
+.flaticon-search-2:before {
+  content: "\f139";
+  font-size: 24px;
+}
+.flaticon-search:before {
+  content: "\f168";
+}
+
+.flaticon-arrows-2:before {
+  content: "\f12e";
+}
+.flaticon-arrow:before {
+  content: "\f135";
+}
+.flaticon-arrows-1:before {
+  content: "\f16d";
+}
+
+.flaticon-right-arrow-4:before {
+  content: "\f1ad";
+}
+
+.flaticon-left-arrow-4:before {
+  content: "\f1ae";
+}
+
+.flaticon-up-arrow-3:before {
+  content: "\f1af";
+}
+
+.flaticon-download-1:before {
+  content: "\f1b0";
+}
+
+.flaticon-down-arrow-3:before {
+  content: "\f1b1";
+}
+
+.flaticon-up-arrow-2:before {
+  content: "\f1b2";
+}
+
+.flaticon-left-arrow-3:before {
+  content: "\f1b3";
+}
+
+.flaticon-right-arrow-3:before {
+  content: "\f1b4";
+}
+
+.flaticon-down-arrow-2:before {
+  content: "\f1b5";
+}
+
+.flaticon-arrows:before {
+  content: "\f1b6";
+}
+
+.flaticon-left-arrow-2:before {
+  content: "\f1b7";
+}
+
+.flaticon-right-arrow-2:before {
+  content: "\f1b8";
+}
+
+.flaticon-upward:before {
+  content: "\f1b9";
+}
+
+.flaticon-download:before {
+  content: "\f1ba";
+}
+
+.flaticon-back:before {
+  content: "\f1bb";
+}
+
+.flaticon-next:before {
+  content: "\f1bc";
+}
+
+.flaticon-up-arrow-1:before {
+  content: "\f1bd";
+}
+
+.flaticon-down-arrow-1:before {
+  content: "\f1be";
+}
+
+.flaticon-left-arrow-1:before {
+  content: "\f1bf";
+}
+
+.flaticon-right-arrow-1:before {
+  content: "\f1c0";
+}
+
+.flaticon-up-arrow:before {
+  content: "\f1c1";
+}
+
+.flaticon-down-arrow:before {
+  content: "\f1c2";
+}
+
+.flaticon-left-arrow:before {
+  content: "\f1c3";
+}
+
+.flaticon-right-arrow:before {
+  content: "\f1c4";
+}
+.flaticon-archive:before {
+  content: "\f19e";
+  font-size: 20px;
+}
+.flaticon-remove-user-1:before {
+  content: "\f109";
+}
+.flaticon-remove-user:before {
+  content: "\f10e";
+}
+
+
+
+
+
+
+
+
+.fa-filter:before {
+  font-family: "Font Awesome 5 Free"; font-weight: 400;content: "\f0b0";font-size: 1rem;
+}
+.fa-bell-slash:before {
+  font-family: "Font Awesome 5 Free"; font-weight: 400; content: "\f1f6";
+}
+
+.fa-bezier-curve:before {
+  content: "\f55b";
+}
+.flaticon-inbox:before {
+    content: "\f194";
+    font-size: 1rem;
+  }

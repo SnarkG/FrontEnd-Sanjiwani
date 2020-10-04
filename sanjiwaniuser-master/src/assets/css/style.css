@@ -1,0 +1,2526 @@
+a {color: #ffffff;text-decoration: none;background-color: transparent;}
+*{font-size: 12px;}
+*:focus {outline: 0;outline:none !important;-webkit-box-shadow: none !important;
+  box-shadow: none !important;}
+*{-webkit-tap-highlight-color:transparent;-moz-tap-highlight-color:transparent;-o-tap-highlight-color:transparent;}
+.noSelect {-webkit-tap-highlight-color:transparent;-moz-tap-highlight-color:transparent;-o-tap-highlight-color:transparent;}
+*{user-select: none; -webkit-user-select: none;-khtml-user-select: none; -moz-user-select: none; -ms-user-select: none;}
+.colorBlack{color: #000000 !important;font-weight: 500;}
+.colorBlack a{color: #000000 !important;}
+.colorWhite{color: #ffffff !important;}
+.colorGreen{color: #64dd17 !important;}
+.colorGrayDark{color: #252525 !important;}
+.colorGray{color: #cccccc !important;}
+.colorGrayLight{color: #b5b6b7 !important;}
+.colorRed{color:#ff0000 !important;}
+.colorYellow{color:#ffbc02 !important;}
+.linkColorOrange{color:rgb(255, 72, 0)}
+.linkColorYellow{color:#ffde02 !important;} 
+.linkColorGreen{color:#008d00 !important;} 
+.colorBlackIcon{color: #000000 !important;}
+.colorGrayProfileIcon{color: #888888 !important;}
+/* *************** background Color ******************** */
+.backgroundBlue{background-color: #020096;}
+.backgroundPurple{background-color: #530b9c;}
+.backgroundDarkPurple{background-color: #35006b;}
+.backgroundDarkBlue{background-color: #033c84;}
+.backgroundDarkBrownRed{background-color: #E30B5C;}
+.backgroundPink{background-color: #ff009b;}
+.backgroundGold{background-color: #DAA520;}
+
+
+.UPPERCASE{text-transform: uppercase !important;}
+.LOWERCASE{text-transform: lowercase !important;}
+.CAPITALIZE{text-transform: capitalize !important;}
+.textLabel{font-size: 14px;font-weight: 400;}
+.textLabelbig{font-size: 16px;font-weight: 400;}
+.textLabelBigBold{font-size: 18px;font-weight: 900;}
+.positionRelative{position: relative;}
+.bold{font-weight: 900 !important;}
+.background-white{background-color: #ffffff;}
+.fontSize5{font-size: 5px !important;}
+.fontSize6{font-size: 6px !important;}
+.fontSize7{font-size: 7px !important;}
+.fontSize8{font-size: 8px !important;}
+.fontSize10{font-size: 10px !important;}
+.fontSize12{font-size: 12px !important;}
+.fontSize14{font-size: 14px !important;}
+.fontSize16{font-size: 16px !important;}
+.fontSize18{font-size: 18px !important;}
+.fontSize20{font-size: 20px !important;}
+.fontSize22{font-size: 22px !important;}
+.fontSize24{font-size: 24px !important;}
+.fontSize26{font-size: 26px !important;}
+.fontSize28{font-size: 28px !important;}
+.fontWeightBold{font-weight: 900 !important;}
+.titleBigBold{font-size: 14px;font-weight: 600;}
+.overFlowScroll{overflow: scroll;display: inline-flex;}
+.hide{display: none;}
+.hrLineAll{border-bottom: 1px solid rgba(0, 0, 0, 0.1);}
+.hrLineBlack{border-bottom: 2px solid #000000;}
+.hrLineDashed{border-bottom: 1px dashed #bbbbbb;padding: 4px 0px;}
+.hrLineBottom{border-bottom: 1px solid #bebebe;padding: 5px 0px;}
+.hrLine{margin-top: 4px;margin-bottom: 4px;border: 0;border-top: 1px solid rgba(0, 0, 0, 0.1);}
+.hrLineWidth80{margin: 8px 5%;border-top: 1px solid rgba(0, 0, 0, 0.1);}
+.hrLineWhite{margin-top: 4px;margin-bottom: 4px;border: 0;border-top: 1px solid #ffffff;}
+.carthrLine{margin-top: 4px;margin-bottom: 4px;border: 0;border-top: 1px solid #177dff;}
+hr.style-three {height: 30px;border-style: solid;border-color: black;border-width: 1px 0 0 0;border-radius: 20px;}
+hr.style-three:before {display: block;content: "";height: 30px;margin-top: -31px;border-style: solid;border-color: black;border-width: 0 0 1px 0;border-radius: 20px;}
+.textRight10{padding-left: 16px;}
+.smallTextLabel{font-size: 0.8rem;}
+.smallTextLabelStrick{padding-left: 2px;font-size: 0.7rem;text-decoration: line-through;color: #a7a7a7;}
+.titleLabel{font-size: 16px;font-weight: 600;}
+.symbolRupees::before{font-family: 'Open Sans', sans-serif;content:"\20B9";}
+
+.success-div{color:#15ff00;font-size: 15px;padding:6px 0px 0px 0px;}
+.error-div{color:#ff0000;font-size: 0.9rem;padding:6px 0px 0px 0px;}
+.error-div-new{color:#ff0000;font-size: 0.9rem;padding:6px 0px 0px 0px;margin: auto;width: 80%;}
+.error-div-search{color:#ff0000;font-size: 0.9rem;padding:0px 0px 0px 16px;text-align: left;}
+.error-div-register{color:#ff0000;font-size: 0.9rem;padding:6px 10px 0px 10px;}
+.error-div-ForBlackBackground{color:#ffffff;font-size: 0.9rem;padding:6px 0px 0px 0px;margin: auto;width: 80%;}
+.error-divRight{color:#ff0000;font-size: 15px;padding:6px 0px 0px 0px;text-align: right;}
+.error-divCenter{color:#ff0000;font-size: 15px;padding:6px 0px 0px 0px;text-align: center;}
+.error-divPopup{color:#ff0000;font-size: 10px;padding: 0px 0px 6px 0px;text-align: left;}
+.yellowButton-lg{background-color: #64dd17;color: #fff;display: block;width: 100%;font-weight: 400;text-align: center;-webkit-user-select: none;padding: 0.7rem 0rem;font-size: 1rem;line-height: 1.5;border-radius: 0.25rem;transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;}
+.shop-wrapper{width: 100%;height:auto;margin: 0px;padding: 0px;}
+.logo{margin-top: 50px;margin-bottom: 30px;text-align: center;display: block;margin-left: auto;margin-right: auto;width: 50%;}
+.login-logo{margin-top: 40px;margin-bottom: 10px;text-align: center;display: block;margin-left: auto;
+  margin-right: auto;width: 100%;}
+.apecto-logo{margin-top: 20px;margin-bottom: 10px;text-align: center;display: block;margin-left: auto;
+  margin-right: auto;width: 100%;}
+.logoApecto {margin-top: 20px;margin-bottom: 30px;text-align: center;display: block;margin-left: auto;margin-right: auto;width: 100%;}
+.logoApectoProfileUpdate{margin-bottom: 10px !important; }
+.loginContainer{padding: 20px;}
+.OpacityLow{opacity: 0.3 !important;}
+.borderAllRed{border: 1px solid #ff0000 !important;}
+.borderAll{border: 1px solid #000000;}
+.borderAllGray{border: 1px solid #d3d3d3;border-radius: 4px;}
+.borderRight{border-right: 1px solid #ccc;}
+.borderAllClose{border: 1px solid #e0e0e0;padding: 1px 3px;border-radius: 20px;}
+.borderZero{border: 0px hidden !important;}
+.borderBottomWhiteGray{border-bottom: 1px solid #e5e5e5;}
+.borderTop{border: 1px solid #a7a7a7;padding: 2px 0px;}
+.borderTopBottom{padding: 6px 0px;border-top: 1px solid #a7a7a7;border-bottom: 1px solid #a7a7a7;}
+.icon{ color: #c0c0c0;font-size: 25px;}
+.icon-history-rupees{color: #a7a7a7;font-size: 12px;}
+.icon-trash{color: #d30707;font-size: 25px;}
+.icon-trashBooking{color: #d30707;font-size: 20px;margin-top: 3px;}
+.iconBooking{ color: #020202;font-size: 20px;margin-top: 4px;}
+.icon-pencile-edit{color: #f80404;font-size: 14px;padding: 0px 6px;}
+.iconBookingDropDown{color: #000000;font-size: 14px;right: 10%;position: absolute;}
+.iconLogout{color: #000000;font-size: 12px;}
+.iconSearch{color: #000000;font-size: 12px;}
+.iconWhite{color: #ffffff;font-size: 25px;}
+.iconWhiteCheck {color: #ffffff;font-size: 72px;}
+.bottomIcon{color: #aaaaaa;font-size: 22px;padding-bottom: 5px;}
+.bottomIconActiveGreen{color: #02b802;font-size: 22px;padding-bottom: 5px;}
+.bottomIconActive{color: #5f5f5f !important;}
+.iconStar{color: #ffffff;font-size: 11px;padding: 0.1rem 0.3rem;}
+.icon-map{color: #ffffff;font-size: 16px;padding: 0rem 0.4rem;}
+.iconStarBackButton {color: #ffffff;font-size: 11px;padding: 1.2rem 0rem 0rem 1rem;}
+.iconStarPLBackButton {color: #000000;font-size: 20px;padding: 0.8rem 0rem 0.4rem 1rem;}
+.login{background: #ffffff;}
+.left-space-10{padding-left: 10px;}
+.icon-top-10{top: 10px;}
+
+.lineHeight2{line-height: 2;}
+.lineHeight2_2{line-height: 2.2;}
+.lineHeight1_5{line-height: 1.5;}
+.lineHeight1_2{line-height: 1.2;}
+.selectServiceType{color: #777676;}
+.text-Color-Blue a{color: #2069c7 !important;}
+.emailLink{color: #64dd17 !important;font-weight: 900;}
+.textAlignRight{text-align: right !important;}
+.textAlignLeft{text-align: left !important;}
+.textAlignCenter{text-align: center !important;}
+.textAlignJustify{text-align: justify !important;}
+.floatRight{float: right !important;}
+.floatLeft{float: left !important;}
+.btnLogin{background-color: #000;color: #fff;display: block;width: 100%;border-radius: 60px !important;font-weight: 400;text-align: center;
+    -webkit-user-select: none;-moz-user-select: none;user-select: none;border: 1px solid transparent;padding: 0.7rem 1rem;font-size: 1rem;line-height: 1.5;border-radius: 0.25rem;transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;}
+.buttonCenter{display: block;margin-left: auto;margin-right: auto;width: 75%;}
+.btnApply{background-color: #000;color: #fff;display: block;width: 100%;border-radius: 14px !important;font-weight: 400;text-align: center;
+  -webkit-user-select: none;-moz-user-select: none;user-select: none;border: 1px solid transparent;padding: 0.7rem 1rem;font-size: 1rem;line-height: 1.5;border-radius: 0.25rem;transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;}
+.disabled-button{width: 100%;background-color: rgb(148, 148, 148);color: #ffffff;padding: 10px 0px;font-size: 18px;}
+.space-2px{margin-left: 2px;}
+.space-4px{margin-left: 4px;}
+.divider-120{margin-top:120px;}
+.divider-100{margin-top:100px;}
+.divider-90{margin-top:90px;}
+.divider-80{margin-top:80px;}
+.divider-70{margin-top:70px;}
+.divider-60{margin-top:60px;}
+.divider-50{margin-top:50px;}
+.divider-55{margin-top:55px;}
+.divider-40{margin-top:40px;}
+.divider-45{margin-top:45px;}
+.divider-30{margin-top:30px;}
+.divider-35{margin-top:35px;}
+.divider-25{margin-top:25px;}
+.divider-20{margin-top:20px;}
+.divider-19{margin-top:19px;}
+.divider-18{margin-top:18px;}
+.divider-17{margin-top:17px;}
+.divider-16{margin-top:16px;}
+.divider-15{margin-top:15px;}
+.divider-14{margin-top:14px;}
+.divider-13{margin-top:13px;}
+.divider-12{margin-top:12px;}
+.divider-11{margin-top:11px;}
+.divider-10{margin-top:10px;}
+.divider-8{margin-top:8px;}
+.divider-7{margin-top:7px;}
+.divider-6{margin-top:6px;}
+.divider-5{margin-top:5px;}
+.divider-4{margin-top:4px;}
+.divider-3{margin-top:3px;}
+.divider-2{margin-top:2px;}
+.divider {margin-top: 30px;}
+/* ************* divider in precentage ************ */
+.dividerPer60{margin-top: 60%;}
+.dividerPer50{margin-top: 50%;}
+.dividerPer45{margin-top: 45%;}
+.dividerPer40{margin-top: 40%;}
+.dividerPer35{margin-top: 35%;}
+.dividerPer30{margin-top: 30%;}
+.dividerPer25{margin-top: 15%;}
+.dividerPer20{margin-top: 20%;}
+.dividerPer15{margin-top: 15%;}
+.dividerPer10{margin-top: 10%;}
+.dividerPer5{margin-top: 5%;}
+.dividerPer4{margin-top: 4%;}
+.dividerPer2{margin-top: 2%;}
+
+.divider-bottom-45{margin-bottom:45px;}
+.divider-bottom-40{margin-bottom:40px;}
+.divider-bottom-30{margin-bottom:30px;}
+.divider-bottom-35{margin-bottom:35px;}
+.divider-bottom-25{margin-bottom:25px;}
+.divider-bottom-20{margin-bottom:20px;}
+.divider-bottom-15{margin-bottom:15px;}
+.divider-bottom-10{margin-bottom:10px;}
+/* divider style in dot and arrow down */
+.dividerStyle{position: relative;height: 1px;margin-top:5px;}
+.div-transparent:before{content: "";position: absolute;top: 0;left: 5%;right: 5%;width: 90%;height: 1px;background-image: linear-gradient(to right, transparent, rgb(48,49,51), transparent);}
+.div-arrow-down:after{content: "";position: absolute;z-index: 1;top: -7px;left: calc(50% - 7px);width: 14px;height: 14px;transform: rotate(45deg);background-color: white;border-bottom: 1px solid rgb(48,49,51);border-right: 1px solid rgb(48,49,51);}
+.div-dot:after{content: "";position: absolute;z-index: 1;top: -9px;left: calc(50% - 9px);width: 18px;height: 18px;background-color: goldenrod;border: 1px solid rgb(48,49,51);border-radius: 50%;box-shadow: inset 0 0 0 2px white,0 0 0 4px white;}
+.textShadow{text-shadow: 2px 2px #ff0000;}
+/* lat long wagholi Lat=18.5905281&lang=74.0028509 */
+.paddingTop3{padding-top: 3px;}
+.paddingAll4{padding:4px !important;}
+.paddingAll6{padding:6px;}
+.paddingAll8{padding:8px;}
+.paddingAll10{padding:10px;}
+.paddingAll12{padding:12px;}
+.paddingAll14{padding:14px;}
+.paddingTopBottom16{padding:16px 0px;}
+.paddingTopBottom10{padding:10px 0px;}
+.paddingTopBottom8{padding:8px 0px;}
+.paddingTopBottom6{padding:6px 0px;}
+.paddingTop-10{padding-top: 10px;}
+.paddingTop-15{padding-top: 15px;}
+.paddingTop-20{padding-top: 20px;}
+.paddingTop-25{padding-top: 25px;}
+.paddingTop-30{padding-top: 30px;}
+
+.paddingLeftPer2{padding-left: 2%;}
+.paddingRightPer2{padding-right: 2%;}
+
+.inputUPPERCASE{text-transform: uppercase !important;}
+.inputBoxBorderAllSide{border-radius: 2px !important;border: 1px solid #a7a7a7 !important;}
+textarea {resize: vertical;font-size: 1rem !important;line-height: 1 !important;}
+.marginAll5{margin: 5px;}
+.marginAll6{margin: 6px;}
+.marginAll8{margin: 8px;}
+.marginAll10{margin: 10px;}
+.marginRight10{margin-right: 10%;}
+.marginRight5{margin-right: 5%;}
+.marginRight3{margin-right: 3%;}
+.marginRight2{margin-right: 2%;}
+.marginRight1{margin-right: 1%;}
+.marginRight6PX{margin-right: 6px;}
+.marginLeft3{margin-left: 3%;}
+.marginLeft2{margin-left: 2%;}
+.marginLeft1{margin-left: 1%;}
+.marginLeft30px{margin-left: 30px !important;}
+.marginTop2{margin-top: 2px !important;}
+.marginTopBottom4px{margin: 4px 0px;}
+
+.textCenter{width: 100%;text-align: center;}
+.textRight{width: 100%;text-align: right;}
+.text-Right{width: 100%;text-align: right;}
+.text-Left{width: 100%;text-align: left;}
+.textCenter a{color: #000;}
+.textBold{color:#000000;font-size: 20px;font-weight: 600;}
+.textBoldWhite{color:#ffffff;font-size: 20px;font-weight: 600;}
+.login-form{width: 100%;height: auto;display: inline-block;}
+.row{display: flex;margin: 0px;padding: 0px;}
+.row100{width:100%;margin: 0px;padding: 0px;}
+.container { width: 100%;margin-right: auto;margin-left: auto;}
+.input-update{text-align:right;padding-top: 4px;}
+.border1pxSolidGray{border: 1px solid #ededee;border-radius: 4px;}
+
+
+.rowData{height: auto;display: block;padding-right: 4px;padding-left: 4px;margin-right: auto;margin-left: auto;}
+.rowDataPadding4{height: auto;display: block;padding-right: 4px;padding-left: 4px;margin-right: auto;margin-left: auto;}
+.rowDataPaddingA5{height: auto;display: block;padding-right: 5px;padding-left: 5px;margin-right: auto;margin-left: auto;}
+.rowDataPadding6{height: auto;display: block;padding-right: 6px;padding-left: 6px;margin-right: auto;margin-left: auto;}
+.rowDataPadding8{height: auto;display: block;padding-right: 8px;padding-left: 8px;margin-right: auto;margin-left: auto;}
+.rowDataPadding10{height: auto;display: block;padding-right: 10px;padding-left: 10px;margin-right: auto;margin-left: auto;}
+.rowDataPadding12{height: auto;display: block;padding-right: 12px;padding-left: 12px;margin-right: auto;margin-left: auto;}
+.rowDataPadding14{height: auto;display: block;padding-right: 14px;padding-left: 14px;margin-right: auto;margin-left: auto;}
+.rowDataPadding16{height: auto;display: block;padding-right: 16px;padding-left: 16px;margin-right: auto;margin-left: auto;}
+.rowDataPadding20{height: auto;display: block;padding-right: 20px;padding-left: 20px;margin-right: auto;margin-left: auto;}
+.rowDataPadding25{height: auto;display: block;padding-right: 25px;padding-left: 25px;margin-right: auto;margin-left: auto;}
+.rowDataPaddingPer5{height: auto;display: block;padding-right: 5%;padding-left: 5%;margin-right: auto;margin-left: auto;}
+.rowDataPaddingPer10{height: auto;display: block;padding-right: 10%;padding-left: 10%;margin-right: auto;margin-left: auto;}
+.rowDataPaddingPer15{height: auto;display: block;padding-right: 15%;padding-left: 15%;margin-right: auto;margin-left: auto;}
+.rowDataPaddingPer20{height: auto;display: block;padding-right: 20%;padding-left: 20%;margin-right: auto;margin-left: auto;}
+.rowDataPaddingPer28 {height: auto;display: block;padding-right: 28%;padding-left: 28%;margin-right: auto;margin-left: auto;}
+.rowDataPaddingPer28 input[type=text] { text-align:right }
+.rowDataPaddingPer20forAgree{height: auto;display: block;padding-right: 0%;padding-left: 16%;margin-right: auto;margin-left: auto;}
+.rowDataPaddingforAgree{height: auto;display: block;padding-right: 0%;padding-left: 30px;margin-right: auto;margin-left: auto;}
+.rowDataPaddingAll5{height: auto;display: block;padding: 5px;margin-right: auto;margin-left: auto;}
+.rowDataPaddingAll10{height: auto;display: block;padding: 10px;margin-right: auto;margin-left: auto;}
+.rowDataPaddingAll12{height: auto;display: block;padding: 12px;margin-right: auto;margin-left: auto;}
+.rowDataPaddingAll14{height: auto;display: block;padding: 14px;margin-right: auto;margin-left: auto;}
+.rowDataPaddingAll16{height: auto;display: block;padding: 16px ;margin-right: auto;margin-left: auto;}
+
+.rowFlex{display: inline-flex;}
+.rowInner{display: inline-flex;width: 100%;height: auto;text-align: center;}
+.rowInnerDate{display: inline-flex;width: 48%;}
+.width30{width: 30%;}
+.width40{width: 40%;}
+.width50{width: 50%;}
+.width60{width: 60%;}
+.width70{width: 70%;}
+.width80{width: 80%;}
+.width90{width: 90%;}
+.width100{width: 100%;}
+.input-icon{width: 20%;height: auto;text-align: center;padding-top: 15px;}
+.input-icon-checkBox{width: 20%;height: auto;text-align: center;}
+.inputData{width: 74%;height: auto;margin: 0px;padding: 0px;}
+.inputDataUpdateProfile{width: 70%;height: auto;margin: auto;padding: 0px;}
+.inputMobileOTP{width: 100%;height: auto;margin: 0px 10%;padding: 0px;}
+/*********** Search Shop Button End Here *************/
+.disabledProfileButton{background-color: #9c9b9b !important;width: 100%;height: auto;padding: 14px 0px;color: #ffffff;border-radius: 30px;border: 1px solid;font-size: 1.1em;font-weight: 400;text-align: center;}
+
+/* ********** offer Banner ********** */
+.carousel .slide {background: #fff !important;}
+.bannerContainer{width: 97%;height: 146px;border: 0px solid #000000;border-radius: 6px;position: relative;padding: 4px;overflow: hidden;margin: 0px 6px;}
+.bannerContainerSingle{width: 97%;height: 146px;border: 0px solid #000000;border-radius: 6px;position: relative;padding: 4px;overflow: hidden;margin: 10px 0px;}
+.bannerBackground{background-color: #ccc;}
+.tandcApply{font-size: 6px;bottom: 6px;right: 6px; position: absolute;}
+.apectoLogo{font-size: 8px;bottom: 6px;left: 10px; position: absolute;width: 25px;height: 25px;}
+.apectoLogo img{width: 25px;height: 25px;}
+.bannerButton{padding: 2px 14px;border-radius: 4px;}
+ 
+/* ****** sold Out strip ************** */
+.sold_out {
+  top: 2em;
+  left: -4em;
+  color: #fff;
+  display: block;
+  position: absolute;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 0.06em;
+  background-color: #a00;
+  padding: 0.5em 5em 0.4em 5em;
+  text-shadow: 0 0 0.75em #444;
+  box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.5);
+  font: bold 16px/1.2em Arial, Sans-Serif;
+  -webkit-text-shadow: 0 0 0.75em #444;
+  -webkit-box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.5);
+  -webkit-transform: rotate(-45deg) scale(0.75, 1);
+  z-index: 10;
+}
+.sold_out:before {
+  content: "";
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  margin: -0.3em -5em;
+  transform: scale(0.7);
+  -webkit-transform: scale(0.7);
+  border: 2px rgba(255, 255, 255, 0.7) dashed;
+}
+
+/* ************* offer tag *************** */
+.vc{
+  display: block;
+  width: 160px;
+  height: 20px;
+  background-color: orange;
+  transform: rotate(45deg);
+  position: absolute;
+  text-align: center;
+  line-height: 22px;
+  right: -60px;
+  top: 14px;
+  font-size: 10px;
+}
+
+
+
+/* *********** create coupon ************ */
+.coupon {
+  border: 2px dotted #bbb;
+  border-radius: 15px;
+  margin: 0 auto;
+  max-width: 800px;
+  position: relative;
+}
+
+.coupon img{
+  width: 100%;
+  height: 140px;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.promo {
+  background: #ccc;
+  padding: 3px;
+}
+
+.expire {
+  color: red;
+}
+
+
+
+.readTerms{font-size: 10px;}
+.mySelect{width: 100%;border: 1px solid #ccc; border-radius: 6px;padding: 8px 0px;text-align: left;}
+.requiredSymbol{position: absolute;color: #ff0202;font-size: 18px;}
+.callforMarketing{border: 1px solid #a7a7a7;padding: 10px;background-color: #000000;border-radius: 20px;color: #fff;line-height: 1.4;}
+.create-box{border: 1px solid #a7a7a7;border-radius: 5px;}
+.menu-active-class{padding: 4px 0px 0px 0px;width: 80%;display: inline-block;border-bottom: 4px solid #64dd17;}
+.transparentBackground{background-color:transparent;}
+.boxShadow{background-color: #fbfbfb;box-shadow: 0px 0px 2px rgba(0, 0, 0, .5);}
+.announcement{display: inline-flex;padding: 4px 0px;}
+.announcement-text{font-size: 10px;letter-spacing: 1px;margin-top: 5px;}
+.announcement-icon{padding: 2px 10px 0px 0px;display: inline-block;font-size: 18px;}
+
+.newsBannerIcon{padding: 0px 0px 0px 0px;display: inline-block;font-size: 4vw;}
+.newsBanner-text{font-size: 3vw;font-weight: 900;padding: 0px 10px;color: #64dd17;letter-spacing: 1px;}
+.textLabel ol{list-style: decimal;}
+
+/* ************************************* New Login form ************************************ */
+.loginFormBackground{background-size: 100% 100%;background-image: url(../images/login_background1.jpg);background-repeat: no-repeat;background-position: center center;min-height: 100%;min-width: 100%;width: 100%;height: auto;position: fixed;top: 0;left: 0;bottom: 0;right: 0;}
+.titleBoldBigApecto{text-align: center;font-size: 20vw;color: #ffffff;font-weight: 900;top: 0px;position: relative;font-family:"Cambria-Bold, Cambria";}
+.titleBoldBig{text-align: right;font-size: 5vw;color: #ffffff;top: 0px;position: relative;}
+.beforeLoginlogo{margin-top: 20px;text-align: center;display: block;margin-left: auto;margin-right: auto;}
+.brforeLoginButton{bottom: 10%;width: 100%;text-align: center;position: fixed;display: block;font-size: 4vw;}
+.signUp-button{padding: 16px 0px;border: 1px solid #ffffff;width: 80%;margin: auto;color: #ffffff;border-radius: 10px;margin-bottom:30px;}
+.login-button{padding: 16px 0px;width: 80%;margin: auto;background-color: #ffffff;border-radius: 10px;}
+
+.bottomFixed{width: 100%;bottom: 0;position: fixed;display: block;opacity: 1;}
+.bottomFixed .rightReserverMessage{position: relative;font-size: 3vw;color: #ffffff;text-align: center;padding-bottom: 10px;}
+
+/* adding facility */
+.addFacility{width: 20%;height:auto;display: inline-block;text-align: center;border: 1px solid #ccc;overflow: hidden;margin: 1%;font-size: 10px;border-radius: 6px;}
+.addFacility img{width: 70%;height:26px;border-radius: 60px;padding-top: 4px;margin: auto;border: 0px solid #000000;}
+.addFacility .imageFacility{width: 70%;height:30px;border-radius: 60px;padding-top: 4px;margin: auto;border: 0px solid #000000;}
+.addFacility .closeFacility{width: 100%;border: 1px solid #ff0000;color:#ff0000;padding: 0px;margin: 5px 0px;border-radius: 6px;}
+.addFacility .addFacilityButton{width: 100%;border: 1px solid #04c404;color:#04c404;padding: 0px;margin: 5px 0px;border-radius: 6px;}
+.facilityText{width: 100%;height: 30px;overflow: hidden;display:inline-block;line-height: 1.2;}
+  /* On boarding Slide */
+.slide-skip-button{right: 10px;top:10px;letter-spacing:1px;position:absolute;border: 1px solid #a7a7a7;border-radius: 30px;padding: 8px 16px;color: #000000;}
+.slide-image{width: 100%;display: contents;}
+.imageCenter{width: 60%;margin: auto;}
+/* slide-2 and 3 extra css */
+/* .slide-image2{width: 100%;height: 400px;background-image: url(../images/slide2.png);background-size: 100% 100%;} */
+.slid-text{width: 100%;display: block;text-align: center;position: relative;padding: 20px 0px;}
+.slid-text .title{font-size: 7vw;font-weight: 900;padding: 10px;}
+.slid-text .description{font-size: 5vw;color: #7a7a7a;padding:0px 10px 10px 10px;}
+
+.bottomFixed-20Per{width: 100%; bottom: 20%;position: fixed;display: block;opacity: 1;}
+.bottomFixed-10Per{width: 100%; bottom: 10%;position: fixed;display: block;opacity: 1;}
+.bottomFixed-20{width: 100%; bottom: 20px;position: fixed;display: block;opacity: 1;}
+.selectedSlide{width: 50%;text-align: left;padding-left: 5%;position: relative;}
+.slideNext{width: 50%;}
+.slideNext .button{padding: 10px 30%;background-color: #000000;color: #ffffff;border-radius: 10px;}
+.slideNext .buttonStarted{padding: 10px 16%;background-color: #000000;color: #ffffff;border-radius: 10px;}
+.dotSelected{height: 10px;width:30px;background-color: #000000;border-radius: 30px;display: inline-block;margin-top: 11%;}
+.dot{height: 10px;width:10px;background-color: #bbb;border-radius: 50%;display: inline-block;margin: 0px 10px;margin-top: 11%;}
+/* ************ Black background **************** */
+.blackBackground{min-height: 100%;width: 100%;height: auto;position: fixed;top: 0;left: 0;bottom: 0;right: 0;background-color: #000000;}
+.greenBackground{min-height: 100%;width: 100%;height: auto;position: fixed;top: 0;left: 0;bottom: 0;right: 0;background-color: #52c234;}
+.whiteBackground{min-height: 100%;width: 100%;height: auto;position: fixed;top: 0;left: 0;bottom: 0;right: 0;background-color: #ffffff;}
+.garyBackground{min-height: 100%;width: 100%;height: auto;position: fixed;top: 0;left: 0;bottom: 0;right: 0;background-color: #f1f1f1;}
+.welcomeTitle{padding: 10px 30px;font-size: 10vw;font-weight: 900;color: #ffffff;}
+.welcomeDescription{padding: 1px 30px;font-size: 6vw;font-weight: 500;color: #ffffff;}
+
+.loginForm-box{width: 100%;border: 0px solid #ffffff;background-color: #ffffff;border-radius: 50px 50px 0px 0px;height: 100%;overflow-y: auto;}
+.loginForm-box-black{width: 100%;border: 1px solid #000000;background-color: #000000;border-radius: 50px 50px 0px 0px;height: 100%;overflow-y: auto;}
+.loginFormInnerBox{height: 76%;overflow: auto;}
+.inputBoxPaddingZeroBgWhite{padding: 0px 8px;margin: auto;width: 80%;border-radius: 10px;background-color: #ffffff;}
+.inputBoxPaddingZero{padding: 0px 8px;margin: auto;width: 80%;border-radius: 10px;background-color: #f1f1f1;}
+.inputBox{border: 0px solid #e6e6e6;padding: 12px 8px;margin: auto;width: 80%;border-radius: 10px;background-color: #f1f1f1;}
+.input-control{display: block;width: 100%;height: calc(1em + 0.5rem + 1px);border: 0px;padding: 0;font-size: 0.9rem;font-weight: 400;line-height: 1.5;color: #000000;background-color: transparent;background-clip: padding-box;border-bottom: 0px solid #000;border-radius: 0px;transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;}
+.input-control:focus +.placeholder{color: rgb(255, 243, 71);}
+.input-control-update{display: block;width: 100%;height: calc(1em + 0.5rem + 1px);padding: 0;font-size: 0.9rem;font-weight: 500;line-height: 1.5;color: #000000;background-color: transparent;background-clip: padding-box;border: 1px solid #000;border-radius: 6px;transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;padding: 10px 0px 8px 16px;}
+.input-control-update:focus +.placeholder{color: #000000;}
+.input-control-textArea-review{display: block;width: 93%;font-size: 0.9rem;font-weight: 500;line-height: 1.5;color: #000000;background-color: transparent;background-clip: padding-box;border: 1px solid #000;border-radius: 6px;transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;padding: 10px 10px 10px 10px;}
+.input-control-textArea-review:focus +.placeholder{color: #000000;}
+.show-passwordIcon{font-size: 20px;} 
+.inputIcon{width: 10%;height: auto;text-align: center;color: #a7a7a7;}
+.iconBgTransparent{background: transparent;}
+.input-data{width: 80%;height: auto;margin: 0px;padding: 0px 0px 0px 10px;}
+
+.blackButton{background-color: #000;color: #fff;display: block;width: 78%;border-radius: 10px !important;font-weight: 400;text-align: center;padding: 0.7rem 1rem;font-size: 1rem;line-height: 1.5;transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;margin: auto;}
+.greenButton{background-color: #52c234;color: #fff;display: block;width: 78%;border-radius: 10px !important;font-weight: 400;text-align: center;padding: 0.7rem 1rem;font-size: 1rem;line-height: 1.5;transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;margin: auto;}
+.blackButton:hover{background-color:#a8a8a8;}
+.blackButtonFull{background-color: #000;color: #fff;display: block;width: 90%;border-radius: 10px !important;font-weight: 400;text-align: center;padding: 0.7rem 1rem;font-size: 1rem;line-height: 1.5;transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;margin: auto;}
+.blackButtonFull:hover{background-color:#a8a8a8;}
+.whiteButtonFull{background-color: #ffffff;color: #000000;display: block;width: 100%;border-radius: 10px !important;font-weight: 600;text-align: center;padding: 0.7rem 1rem;font-size: 5vw;line-height: 1.5;transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;margin: auto;}
+.whiteButtonFull:hover{background-color:#e2e2e2;}
+.whiteButton{background-color: #ffffff;color: #000000;display: block;width: 80%;border-radius: 10px !important;font-weight: 600;text-align: center;padding: 0.7rem 1rem;font-size: 5vw;line-height: 1.5;transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;margin: auto;}
+.whiteButton:hover{background-color:#e2e2e2;}
+.inputBox-forBlack{padding: 12px 8px;margin: auto;width: 80%;}
+.input-control-forBlack{display: block;width: 100%;height: calc(1.6em + 0.5rem + 1px);padding: 0;font-size: 1.1rem;font-weight: 400;line-height: 1.5;color: #ffffff;background-color: transparent;background-clip: padding-box;transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;}
+.input-control-forBlack::focus{color: rgb(255, 255, 255);}
+.input-control-forBlack::placeholder{color: rgb(197, 197, 197);}
+
+/* ****************** profile css new *************** */
+.profile-photo{width: 150px;height: 150px;border: 1px solid #a7a7a7;margin: auto;border-radius: 90px;}
+.profile-photo img{width: 100%;height: 100%;display: inline-block;border-radius: 90px;overflow: hidden;}
+.image-upload > input{display: none;}
+.image-upload .addPhoto{
+  background-color: #fff;
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 30px;
+    border: 0px solid #fff;
+    box-shadow: 0px 1px 4px 2px #ccc;
+    top: 210px;
+    right: 45%;
+    position: absolute;
+    border-radius: 60px;
+    padding: 4px;}
+
+/* product description */
+.productDetails{background-color: #fbfbfb;    border-radius: 6px;}
+.productDescriptionTitle{font-size: 26px;}
+.productDescriptionInfoTitle{font-size: 12px;color: #cccccc;width: 48%;text-align: left;}
+.productDescriptionInfoValue{font-size: 12px;width: 48%;text-align: left;}
+.pdRatings{width: 100%;text-align: left;}
+.pdRatingCount{font-size: 18px;}
+.itemLeftCount{font-size: 14px;position: absolute;right: 0px;border: 1px solid #000;background-color: #000000;color: #ffffff;padding: 8px;border-radius: 8px 0px 0px 8px;}
+.pdPrice{font-size: 36px;color: #0158f7;font-weight: 900;}
+.pdActualPriceStrick{padding-left: 4px;font-size: 1.2rem;text-decoration: line-through;color: #a7a7a7;}
+.pdOffer{font-size: 26px;color: #008d00;padding-left: 6px;}
+.bottomMenuContentMenuAdToCart{width: 49%;height: 50px;background-color: #e9e9e9;}
+.bottomMenuContentMenuAdToCart .addToCart{border: 1px solid #64dd17;background-color:#ffffff;color: #000000;font-size: 14px;padding: 8px 0px;margin: 0px 16px;    border-radius: 5px;margin-top: 8px;}
+
+.buyNow{border: 1px solid #64dd17;background-color: #64dd17; color: #fff;font-size: 14px;padding: 8px 0px;margin: 0px 16px;border-radius: 5px;margin-top: 8px;letter-spacing: 1.4px;}
+.form-box{padding: 1rem;border: 1px solid #ccc;box-shadow: 0 0.1rem 1rem rgba(0, 0, 0, 0.1);margin: 4px;}
+.newAddress-logo{margin-top: 10px;margin-bottom: 10px;text-align: center;display: block;margin-left: auto;margin-right: auto;width: 100%;}
+
+/* **** no product image ******* */
+.no-product-image{text-align: center;display: block;margin-left: auto;margin-right: auto;width: 100%;}
+.no-product-image img{
+  width: 100%;
+}
+/* ******* active booking view ******* */
+.activeBooking {
+  position: fixed;
+  bottom: 48px;
+  width: 100%;
+  height: 21px;
+  background-color: #33691E;
+  padding: 0.4rem 0rem 0rem 0rem;
+  z-index: 999;
+  opacity: 1;
+  display: inline-flex;
+}
+.activeBookingTextView {
+  width: 100%;
+  font-size: 0.8rem;
+  text-align: center;
+  color: #ffffff;
+}
+.activeBookingTextView a {
+  color: #fff;
+}
+/* Apecto Mall History css */
+.mall-historyTitle{font-size: 16px;display: block;}
+.mall-historyArea{font-size: 10px;}
+.mall-historyTotalPrice{font-size: 12px;}
+.mall-history-delivery{font-size: 12px;}
+.mall-history-deliveryText{font-size: 8px;}
+.mall-historyProductTitle{font-size: 12px;}
+.mall-historyProductQuantity{font-size: 12px;}
+.mall-history-OrderDate{font-size: 12px;}
+.mall-history-reOrder{border: 1px solid #64dd17;width: 90%;display: block;font-weight: 500;padding: 4px 0px;color: #ffbb00;}
+.mall-history-rateOrder{border: 1px solid #000000;width: 90%;display: block;font-weight: 900;padding: 4px 0px;}
+.mall-history-pastOrderLabel{background-color: #eaeaea;padding: 14px 12px;}
+/* Rating And Review */
+.ratingTitleLabel{width: 68%;text-align: left;margin-top: 4px;}
+.ratingButton{width: 30%;border: 1px solid rgb(37, 37, 37);border-radius: 6px;font-size: 12px;padding: 8px 0px;background-color: #ffffff;color: #000;font-weight: 400;}
+.ratingShowButton{width: 30%;border:1px solid #016801;background-color: #016801;color: #ffffff;padding: 8px 0px;;border-radius: 30px;margin-right: 10px;}
+.ratingShowText{font-size: 14px;margin-top: 10px;}
+.reviewShowButton{width: 20%;height: 16px;border:1px solid #016801;background-color: #016801;color: #ffffff;padding: 8px 0px;;border-radius: 10px;margin-right: 10px;}
+.reviewShowText{width:76%;font-size: 14px;margin-top: 10px;overflow: hidden;text-align: left;}
+.reviewDate{color: #858585;font-size: 10px;text-align: right;}
+
+/* radio button for delivery address */
+@keyframes click-wave {
+  0% {
+    height: 40px;
+    width: 40px;
+    opacity: 0.35;
+    position: relative;
+  }
+  100% {
+    height: 200px;
+    width: 200px;
+    margin-left: -80px;
+    margin-top: -80px;
+    opacity: 0;
+  }
+}
+
+.option-input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  position: relative;
+  top: 3.33333px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  transition: all 0.15s ease-out 0s;
+  background: #cbd1d8;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  margin-right: 0.5rem;
+  outline: none;
+  position: relative;
+  z-index: 1000;
+}
+.option-input:hover {
+  background: #9faab7;
+}
+.option-input:checked {
+  background: #64dd17;
+}
+.option-input:checked::before {
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  content: '✔';
+  display: inline-block;
+  font-size: 14.66667px;
+  text-align: center;
+  line-height: 20px;
+}
+.option-input:checked::after {
+  -webkit-animation: click-wave 0.65s;
+  -moz-animation: click-wave 0.65s;
+  animation: click-wave 0.65s;
+  background: #64dd17;
+  content: '';
+  display: block;
+  position: relative;
+  z-index: 100;
+}
+.option-input.radio {
+  border-radius: 50%;
+}
+.option-input.radio::after {
+  border-radius: 50%;
+}
+
+
+
+/* cart product image */
+.cart{background-color: #efefef;font-size: 12px;}
+.emptyCart{width: 100%;background-color: #ffffff;font-size: 12px;bottom: 30%;position: fixed;}
+.singleProduct{background-color: #ffffff;padding: 0px 16px;border: 1px solid #ccc;display: block;}
+.productData{width: 70%;}
+.productName{width:100%;padding: 2px 0px 10px 0px;text-align: left;height: 55px;font-size: 16px;}
+.cartPrice{width: 100%;text-align: left;}
+.cartPrice .price{font-size: 16px;margin-right: 6px;}
+.cartPrice .actualPrice{font-size: 12px;color: #cccccc;text-decoration: line-through;margin-right: 6px;}
+.cartPrice .offerPercentage{font-size: 14px;}
+
+.productImage{width: 30%;font-size: 12px;}
+.cartproductImage{width:100%;}
+.cartproductImage img {height: 60px;width: 100%;}
+.cartQuantity{border: 1px solid #aaa;padding: 4px 0px;margin-top: 8px;}
+.cartSaveLater{width: 48%;padding: 8px 0px;border-right: 1px solid #cccccc;}
+.cartRemove{width: 48%;padding: 8px 0px;}
+
+.priceDetails{background-color: #ffffff;margin: 5px 0px;font-size: 16px;}
+.cartPriceDetails{width: 100%;padding: 10px 0px;color: #7a7a7a;text-decoration-style: dashed;}
+.cartTitle{width: 70%;text-align: left;padding:6px 0px;font-size: 14px;}
+.cartProductPrice{width: 30%;text-align: right;padding:6px 0px;font-size: 14px;}
+.cartDelivery{width: 70%;text-align: left;padding:8px 0px;font-size: 14px;}
+.cartDeliveryPrice{width: 30%;text-align: right;padding:8px 0px;font-size: 14px;}
+.cartTotalTitle{width: 50%;text-align: left;padding:10px 0px;font-size: 14px;}
+.cartTotalPrice{width: 50%;text-align: right;padding:10px 0px;font-size: 14px;}
+.cartSaving{font-size: 10px;padding:10px 0px;}
+.secure-sms{text-align: center;color: #7a7a7a;font-size: 10px;padding: 10px 0px;letter-spacing: 2px}
+
+.cartBottomButtonPlaceOrder{position: fixed;bottom: 0;width: 100%;border-top: 1px solid #eaeaea;background-color:#f1f1f1;padding:4px 0px;}
+.cartTotalPriceButton{width: 50%;padding: 4px 0px;font-size: 22px;border-right: 1px solid #eaeaea;}
+.placeOrderButton{width: 50%;padding: 6px 0px;}
+.placeOrderButton .placeOrder{width:80%;letter-spacing: 2px;border-radius: 3px;background-color: #64dd17;color: #ffffff;padding: 6px 0px;font-size: 14px;}
+/* order place details  */
+.order_place_details_title{
+  font-size: 16px;
+  font-weight: 400;
+  background: #f1f1f1;
+  padding: 8px 14px;
+  border-radius: 0px;
+}
+.order_place_details_data{
+  font-size: 14px;
+  padding: 4px 16px;
+  line-height: 1.6;
+}
+.cartProductName{
+  width: 100%;
+  padding: 2px 0px 10px 0px;
+  text-align: left;
+  font-size: 16px;
+}
+.cartQuantityTitleSmall{
+  font-size: 10px;
+}
+.cartTotalPriceButton-place-order{width: 50%;padding: 4px 0px;font-size: 22px;border-right: 1px solid #eaeaea;font-weight: 900;}
+/* **** order history details ************ */
+.orderHistoryDetails-button{width: 48%;padding: 8px 0px;border-right: 1px solid #cccccc;font-weight: 900;}
+/* order confirm button */
+.confirmOrderButton{text-align: center;bottom: 4px;left: 0;position: fixed;width: 100%;}
+.confirmOrderButton .confirmOrder { width: 90%;border-radius: 3px;background-color: rgb(255, 72, 0);color: #ffffff;padding: 8px 0px;font-size: 18px;}
+.confirmOrderButton .confirmOrderDisabled { width: 90%;border-radius: 3px;background-color: rgb(167, 167, 167);color: #ffffff;padding: 8px 0px;font-size: 18px;}
+/*  Address card */
+.selectdeliveryAddress{padding: 4px 0px;font-size: 16px;}
+.selected_address{border: 1px solid #a7a7a7;border-radius: 2px;padding: 10px;margin-bottom: 0px;line-height: 1.6;}
+.deliverAddress{width: 100%;color: #ffffff; background: #64dd17 !important;border-color: #64dd17 !important;font-size: 14px;border-radius: 3px;padding: 10px 0px;font-weight: 400;}
+.deliverAddressBorder{width: 100%; border:1px solid #64dd17 !important;font-size: 14px;border-radius: 3px;padding: 10px 0px;font-weight: 400;}
+.editAddress{width: 100%;border:1px solid #a7a7a7;font-size: 12px;border-radius: 3px;padding: 7px 0px;font-weight: 400;}
+
+/* image background for whole div tag */
+.loginBackgroundImage{
+  width: 100%;
+  height: auto;
+  background-image: url(../images/mens.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+/* transper box for sold out product */
+.soldOutBox{
+  width: 100%;
+  height: 100%;
+  opacity: 0.3;
+}
+/* product detail and review tab */
+.detailAndReviewTab{font-size: 16px;
+  width: 50%;
+  padding: 4px 0px;
+  color: #ababab;
+}
+.detailAndReviewTabActive{font-size: 16px;width: 50%;padding: 4px 0px;border-bottom: 1px solid #000000;}
+/* button review */
+.reviewSend{
+    background-color:#64dd17;
+    color: #fff;
+    display: block;
+    border-radius: 3px !important;
+    text-align: center;
+    -webkit-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 0.3rem 1rem;
+    font-size: 1rem;
+    margin: 0 auto;
+}
+
+/* caraousal image slider */
+.carousel .carousel-status{background: transparent !important;}
+/* .carousel .slide {
+  height: 220px;
+  object-fit: cover;
+}
+.carousel .slide img {
+  object-fit: cover;
+} */
+/* cart badge color */
+.notify-badge{position: relative;}
+.notify-badge[data-badge]:after{
+  content: attr(data-badge);
+  position: absolute;
+  right: 3%;
+  top: -29px;
+  background: #64dd17;
+  text-align: center;
+  border-radius: 60px;
+  color: white;
+  padding: 2px 6px;
+  font-size: 12px
+}
+.notify-badge[data-badge="undefined"]:after {
+  display:none;
+}
+.notify-badge[data-badge="0"]:after {
+  display:none;
+}
+
+
+/* product card */
+.rowInnerMall{width: 100%;height: auto;}
+.productContainer{width: 45%;height:auto;border:1px solid #cccccc;box-shadow: 0px 0px 2px 0px #c7c7c7;display: inline-block;margin: 6px 2%;border-radius: 10px;position: relative;overflow: hidden;}
+  
+  /* -webkit-box-shadow: 1px 0px 10px 1px rgba(0,0,0,0.32);
+  -moz-box-shadow: 1px 0px 10px 1px rgba(0,0,0,0.32);
+  box-shadow: 1px 0px 10px 1px rgba(0,0,0,0.32);} */
+  
+.productContainer .productLike{width: 20%;height: auto;position:absolute;display: inline-block;text-align: right;margin-top: 6px;}
+.productContainer .productLike .like{width: 100%;}
+.productContainer .productImage {width: 100%;height:170px;display: inline-block;font-size: 12px;}
+.productContainer .productImage img{width: 100%;height:100%;object-fit: cover;border-radius: 10px 10px 0px 0px;}
+.productContainer .productText{width: 100%;height:auto;padding-bottom: 10px;display: inline-block;background-color: #000000;border-radius: 0px 0px 10px 10px;color: #ffffff;}
+.productContainer .productText .productTitle{padding:6px 4px;display: inline-block;font-size: 14px;}
+.productContainer .productText .rowInner .productPriceAndRating .price{font-size: 12px;text-align: left;padding-left: 4px;}
+.productContainer .productText .rowInner .price .smallTextLabelStrick {padding-left: 2px;font-size: 0.6rem;text-decoration: line-through;color: #a7a7a7;}
+.productContainer .productText .rowInner .productPriceAndRating .ratings{width: 100%;text-align: left;padding-left: 4px;}
+.productContainer .productText .rowInner .ratings .ratingCount{font-size: 10px;}
+.productContainer .productText .rowInner .productPriceAndRating{width: 54%;margin: 0px;padding: 0px;}
+.productContainer .productText .rowInner .addToCartProductCard{width: 44%;height:100%;margin-right: 6px;border: 2px solid #2802ff;font-size: 11px;border-radius: 5px;padding: 8px 0px;}
+
+/* product bar */
+.topBarPL{position: fixed;top: 0px;border-radius: 0px 0px 10px 10px;width: 100%;color: #000;font-size: 16px;display: inline-flex;background-color: #f7f7f7;z-index: 999;}
+.topBarPL a{color: #000000;}
+.topBarPLName{width: 70%; padding: 1rem 0rem 0.8rem 1rem;}
+.topBarPLNotificationIcon{width: 30%;padding: 0.6rem 1rem 0.3rem 0rem;text-align:right;}
+
+
+/* product bottom sort and filter */
+/****** Bottom Mune Start Here ********/
+.bottomMenuFilter{position:fixed;bottom: 0;width: 100%;height: auto;background-color: #f1f1f1;z-index: 999;opacity: 1;}
+.bottomMenuContentFilter{width: 100%;text-align: center;display: inline-flex;font-size: 10px;color: #000000;}
+.bottomMenuContentMenuFilter{width: 49%;height: 40px;border: 1px solid #dedede;background-color: #ffffff;}
+.sortandfilter{font-size: 20px;}
+
+
+/*********************** Shop terms and condition **************************/
+.shopTermsCondition{
+  height: auto;
+  padding: 16px;
+  display: block;
+}
+
+/* Create offer  */
+.createOfferBanner{height: auto;border: 1px solid #ccc;border-radius: 4px; padding: 10px 0px 2px 0px;text-align: center;}
+.createOfferBanner .title{font-size: 18px;font-weight: 500; color: #000000;}
+.createOfferBanner .icon-offer-arrow{padding: 5px 0px 5px 0px;}
+.createOfferBanner .icon-offer-arrow::before {font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f138"; font-size: 50px;color: #000000;}
+
+.selectOffer{height: auto;border: 1px solid #000000;border-radius: 6px; padding: 16px 0px 16px 0px;text-align: center;}
+.selectOffer .title{font-size: 18px;font-weight: 500; color: #000000;}
+.condition {
+  list-style: circle;
+}
+.conditions ul li{margin: 5px;}
+.conditions ul li:nth-child(odd) {
+  background: #f5f5f5;
+}
+/* input offer for offer */
+.form-control-box{
+  display: block;
+  width: 96%;
+  height: calc(1.9em + 0.75rem + 2px);
+  padding: 0px 0px 0px 10px;
+  font-size: 0.8rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.form-control-box-error:focus{
+  border: 1px solid #ff3232;
+}
+
+.box {
+  height: auto;
+}
+
+.box select {
+  width: 100%;
+  background-color: #ffffff;
+  color: #424242;
+  padding: 12px;
+  border: 1px solid #505050;
+  border-radius: 6px;
+  -webkit-appearance: button;
+  appearance: button;
+  outline: none;
+}
+
+/* .box::before {
+  font-family: "Font Awesome 5 Free"; 
+  font-weight: 900;
+  content: "\f13a";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 20%;
+  height: 100%;
+  text-align: center;
+  font-size: 28px;
+  line-height: 45px;
+  color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.1);
+  pointer-events: none;
+}
+*/
+.box:hover::before {
+  color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(255, 255, 255, 0.6);
+} 
+
+.box select option {
+  padding: 0px;
+}
+
+/*********  Checkbox style ********/
+/* The container */
+input[type="checkbox"] {
+	display: none;
+}
+
+input[type="checkbox"] + label {
+	cursor: pointer;
+	font-size: 1em;
+}
+/* The container */
+.myCheckBoxcontainer {
+  position: relative;
+  padding-left: 26px;
+  cursor: pointer;
+  margin: auto;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.myCheckBoxcontainer input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.agree-checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 16px;
+  width: 18px;
+  background-color: #eee;
+  border: 1px solid #ccc;
+  border-radius: 0px;
+}
+
+/* On mouse-over, add a grey background color */
+.myCheckBoxcontainer:hover input ~ .agree-checkmark {
+  background-color: #fff;
+}
+
+/* When the checkbox is checked, add a blue background */
+.myCheckBoxcontainer input:checked ~ .agree-checkmark {
+  background-color: #64dd17;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.agree-checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.myCheckBoxcontainer input:checked ~ .agree-checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.myCheckBoxcontainer .agree-checkmark:after {
+  left: 5px;
+  top: 0px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  
+}
+
+/* CHECK MARK FOR BOOKMANUAL PAGE */
+
+/* Create a custom checkbox */
+.bookManual_agree-checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 13px;
+  width: 13px;
+  background-color: #eee;
+  border: 1px solid #ccc;
+  border-radius: 0px;
+}
+
+/* On mouse-over, add a grey background color */
+.myCheckBoxcontainer:hover input ~ .bookManual_agree-checkmark {
+  background-color: #fff;
+}
+
+/* When the checkbox is checked, add a blue background */
+.myCheckBoxcontainer input:checked ~ .bookManual_agree-checkmark {
+  background-color: #64dd17;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.bookManual_agree-checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.myCheckBoxcontainer input:checked ~ .bookManual_agree-checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.myCheckBoxcontainer .bookManual_agree-checkmark:after {
+  left: 2px;
+  top: 0px;
+  width: 5px;
+  height: 7px;
+  border: solid white;
+  border-width: 0 2px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  
+}
+
+/* three dot drop down */
+.showLeft{
+  background-color: #0d77b6 !important;
+  border:1px solid #0d77b6 !important;
+  text-shadow: none !important;
+  color:#fff !important;
+  padding:10px;
+}
+
+.icons li {
+  background: none repeat scroll 0 0 #fff;
+  height: 7px;
+  width: 7px;
+  line-height: 0;
+  list-style: none outside none;
+  margin-right: 15px;
+  margin-top: 3px;
+  vertical-align: top;
+  border-radius:50%;
+  pointer-events: none;
+}
+
+.btn-left {
+  left: 0.4em;
+}
+
+.btn-right {
+  right: 0.4em;
+}
+
+.btn-left, .btn-right {
+  position: absolute;
+  top: 0.24em;
+}
+
+.dropbtn {
+  background-color: #4CAF50;
+  position: fixed;
+  color: white;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #3e8e41;
+}
+
+.dropdown {
+  position: absolute;
+  display: inline-block;
+  right: 0.4em;
+}
+.dropdown-content {
+  display: none;
+  position: relative;
+  margin-top: 0px;
+  background-color: #f9f9f9;
+  min-width: 110px;
+  overflow: auto;
+  padding: 10px;
+  box-shadow: 2px 8px 10px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border: 1px solid #ccc;
+  border-radius: 10px 0px 10px 0px;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown a:hover {background-color: #f1f1f1}
+
+.dropdownDotMenu {
+  position: absolute;
+  display: inline-block;
+  right: 1.1em;
+  margin-top: 4px;
+}
+
+.dropdownDotMenu:hover .dropdown-content {
+  display: block;
+}
+.show {display:block;}
+
+
+.form-group { margin-bottom: 0px;}
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0;
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border-bottom:1.2px solid #000;
+    border-radius: 0px;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+/* for verify otp */
+.form-control-centerText{
+    display: block;
+    width: 100%;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0;
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    color: #000000;
+    background-color: #f7f7f7;
+    background-clip: padding-box;
+    border: 0px;
+    border-bottom: 1.2px solid #000;
+    border-radius: 0px;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.radio-toolbar{text-align: left;}
+.radio-toolbar input[type="radio"] {
+    display: none;
+  }
+  
+  .radio-toolbar label {
+    display: inline-block;
+    padding: 11px 11px;
+    font-family: Arial;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 4px;
+    width: 30%;
+    border-radius: 6px;
+    border: 1px solid #bbb8b8cc;
+    text-align: center;
+  }
+  
+  .radio-toolbar input[type="radio"]:checked+label {
+    background-color: #000000;
+    color: #ffffff !important;
+  }
+
+  /* radion button for payment method */
+  .radio-toolbar-payment-method{text-align: left;}
+  .radio-toolbar-payment-method input[type="radio"] {
+    display: none;
+  }
+  .radio-toolbar-payment-method label {
+    display: inline-block;
+    padding: 11px 11px;
+    font-family: Arial;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 4px;
+    width: 40%;
+    border-radius: 6px;
+    border: 1px solid #bbb8b8cc;
+    text-align: center;
+  }
+  .radio-toolbar-payment-method input[type="radio"]:checked+label {
+    background-color: #000000;
+    color: #ffffff !important;
+  }
+
+  /* offer Percentage */
+  .radioMaleFemale{text-align: center;}
+  .radioMaleFemale input[type="radio"] {
+      display: none;
+    }
+    
+    .radioMaleFemale label {
+      display: inline-block;
+      padding: 11px 11px;
+      font-family: Arial;
+      font-size: 16px;
+      cursor: pointer;
+      margin: 4px;
+      width: 39%;
+      border-radius: 6px;
+      border: 1px solid #bbb8b8cc;
+      text-align: center;
+    }
+    
+    .radioMaleFemale input[type="radio"]:checked+label {
+      background-color: #000000;
+      color: #ffffff !important;
+    }  
+    
+    .photoBlock{
+    width: 100%;font-size: 14px;
+    height: auto;border: 1px solid #cccccc;border-radius: 5px;margin:15px 6% 0px 6%;padding: 16px;
+  }
+  .photoBlockInner{
+    width: 100%;font-size: 14px;
+    height: auto;display: inline-flex;
+  }
+  .googleCaptchaLabel{margin: 15px 6% 0px 6%;}
+  .shopPhoto{width: 44%;padding: 12px;color: #ffffff;background-color: #000000;margin-right: 10%;border:0px;}
+  .displayPhoto{width: 100%;height: 100px;overflow: hidden;text-align: center;margin-top: 10%;display: none;}
+  .shopInputTypeAdharPhoto{width: 100%;padding: 0px;text-align: center;}
+  .shopOwnerPhoto{width: 65%;padding: 12px;color: #000;margin-right: 10%;font-size: 14px;font-weight: 700;}
+  .inputShopOwnerPhoto{width: 30%;padding: 5px 0px;}
+  .shopInputTypePhoto{width: 44%;padding: 0px;}
+  
+  .inputShopOwnerPhoto [type="file"] {
+    height: 0;
+    overflow: hidden;
+    width: 0;
+  }
+  
+  .inputShopOwnerPhoto [type="file"] + label {
+    background: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 0px 0px;
+    position: relative;
+    transition: all 0.3s;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    }
+
+    [type="file"] {
+      height: 0;
+      overflow: hidden;
+      width: 0;
+    }
+    
+    [type="file"] + label {
+      background: #64dd17;
+      border: none;
+      border-radius: 5px;
+      color: #ffffff !important;
+      cursor: pointer;
+      padding: 16px 0px;
+      position: relative;
+      transition: all 0.3s;
+      width: 100%;
+      text-align: center;
+      display: inline-block;
+      }
+   .rowInnerBooking{display: inline-flex;width: 100%;padding: 8px 0px;border:1px solid #f2f2f8;margin-top:8px;font-size: 14px;}
+   .rowInnerBooking:hover {box-shadow: 0 0px 10px rgba(0,0,0,0.25), 0 4px 5px rgba(0,0,0,0.22);}
+
+   .bookingId{width: 6%;text-align: center;padding-top: 1.2%;}
+   .bookingName{width: 42%;padding-top: 1.2%;}
+   .bookingView{width: 14%;}
+   .bookingStart{width: 22%;}
+   .bookingMessage{width: 6% !important;}
+   .bookingCall{width:8%;text-align: right;}
+
+   .bookingView .buttonView{
+    color: #14bdab;
+    border: 1px solid #14bdab;
+    background-color: #fff;
+    padding: 2px 4px;
+    border-radius: 6px;
+  }
+  .bookingView .buttonDelete{
+    color: #a51313;
+    border: 1px solid #fd0202;
+    background-color: #fff;
+    padding: 2px 4px;
+    border-radius: 6px;
+  }
+ .bookingStart .buttonMessage{
+    color: #ffffff;
+    border: 1px solid #64dd17;
+    background-color: #64dd17;
+    padding: 2px 4px;
+    border-radius: 6px;
+   }
+   .bookingRight{width: 4%;border:1px solid #24b245;border-radius: 30px;background-color: #24b245;float:right;}
+   .bottomMenuBookManual{
+      position:fixed;
+      bottom: 50;
+      width: 100%;
+      height: 50px;
+      background-color: #ffffff;
+      padding: 0.4rem 0rem 0rem 0rem;
+      z-index: 999;
+      opacity: 1;
+  }
+  .bookManual{
+    width: 60%;
+    background-color: rgb(181, 6, 151);
+    padding: 0.6rem;
+    font-size: 16px;
+    color: #fff;
+    border: 0px;
+    border-radius: 6px;
+    
+  }
+
+  .bookManual:hover{
+    background-color: rgb(255, 6, 213);
+    animation-name: hoverout;
+    animation-duration: 0.4s;
+  }
+/* object animation (hover over) */
+@keyframes hoverover
+{
+    0% { transform: scale(1); border-width:3px;}
+    50% { transform: scale(1.1); border-width:4;}
+    75% { transform: scale(0.95); border-width:2px;}
+    100% { transform: scale(1); border-width:3px;}
+}
+/* object animation (hover out) */
+@keyframes hoverout 
+{
+    0% { transform: scale(1); }
+    30% { transform: scale(0.90);}
+    50% { transform: scale(0.90);}
+    80% { transform: scale(1);}
+    100% { transform: scale(1); }
+}
+
+
+/* ********* Tracking progress bar css ******************** */
+.delivery-note{font-size: 12px;padding: 16px;
+  border-top: 1px solid #a7a7a7;border-bottom: 1px solid #a7a7a7;}
+.delivery-note-title{color: #64dd17;font-size: 12px;font-weight: 600;}
+.track-box {
+  padding: 1rem;
+  box-shadow: 0 0.1rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.order-track {
+  margin-top: 2rem;
+  padding: 0 1rem;
+  border-top: 1px dashed #2c3e50;
+  padding-top: 2.5rem;
+  display: flex;
+  flex-direction: column;
+}
+.order-track-step {
+  display: flex;
+  height: 6rem;
+}
+.order-track-step:last-child {
+  overflow: hidden;
+  height: 4rem;
+}
+.order-track-step:last-child .order-track-status span:last-of-type {
+  display: none;
+}
+.order-track-status {
+  margin-right: 0.7rem;
+  position: relative;
+}
+.order-track-status-dot {
+  display: block;
+}
+.order-track-status-dot::before{
+  content: "\2713";
+  color: white;
+  height: 2.2em;
+  width: 2.2em;
+  line-height: 2.2em;
+  border: none;
+  border-radius: 50%;
+  background: #64dd17;
+  padding: 7px;
+  font-weight: 900;
+  
+}
+.order-track-status-dot-empty::before{
+  content: "\039F";
+  color: #b6b6b6;
+  height: 2.2em;
+  width: 2.2em;
+  line-height: 2.5em;
+  border: 1px solid #b6b6b6;
+  border-radius: 50%;
+  background: #b6b6b6;
+  padding: 7px;
+  
+}
+.order-track-status-line {
+  display: block;
+  margin: 0 auto;
+  width: 2px;
+  height: 6rem;
+  background: #64dd17;
+}
+.order-track-status-line-empty {
+  display: block;
+  margin: 0 auto;
+  width: 2px;
+  height: 6rem;
+  background: #b6b5b5;
+}
+.order-track-text{
+  display: block;
+  padding: 5px 0px 0px 0px;
+}
+.order-track-text-stat {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 3px;
+}
+.order-track-text-sub {
+  font-size: 0.7rem;
+  font-weight: 300;
+}
+.order-track-text-sub-deliver {font-size: 8px;color: #ccc;}
+
+.order-track {
+  transition: all .3s height 0.3s;
+  transform-origin: top center;
+}
+
+
+
+/* ********* End Tracking progress bar css ******************** */
+
+
+.customerData{width: 90%;display: inline-flex;padding: 16px;}
+.customerLabel{width:20%;color:#7b7878;}
+.customerName{width:80%;font-size: 18px;}
+.customerMobile{width: 80%;}
+
+/* *********** Shop Services CSS ************** */
+.rowInnerServices{display: inline-flex;width: 94%;font-size: 14px;color:#000000;margin: 3px 3%;}
+.shopServiceId{width:8%;padding :10px 0px 5px 0px;text-align: center;border-right: 0px;}
+.shopServiceName{width: 42%;font-weight: 900; padding :10px 0px 5px 0px;font-weight: 500;border-left: 0px;border-right: 0px;}
+.shopServicePrice{width: 20%;padding :10px 0px 5px 0px;text-align: center;border-left: 0px;border-right: 0px;}
+.shopServicePriceOffer{width: 28%;padding :10px 0px 5px 0px;text-align: center;border-left: 0px;border-right: 0px;}
+.shopServiceType{width: 8%;padding :10px 0px 5px 0px;text-align: center;border-left: 0px;border-right: 0px;}
+.borderRoundedForMale{font-size: 10px;font-weight: 700;border: 1px solid #ccc;border-radius: 50px;padding: 1px 4px;}
+.borderRoundedForFemale{font-size: 10px;font-weight: 700;border: 1px solid rgb(255, 1, 213);border-radius: 50px;padding: 0px 5px;}
+.shopServiceUpdate{width: 12%;padding :10px 0px 5px 0px;text-align: center;border-left: 0px;border-right: 0px;}
+.shopServiceDelete{width: 10%;padding :10px 0px 5px 0px;text-align: center;border-left: 0px;}
+.serviceEditIcon {color: #1a6d09;font-size: 100%;}
+.serviceDeleteIcon {color: #e20202;font-size: 100%;}
+.shopServiceTime{width: 90%;margin-left: 10%; padding :0px 0px;border-left: 0px;border-right: 0px;font-size: 10px;padding-bottom: 4px;color: #b7b7b7;}
+
+.rowInnerServices:hover{ box-shadow: 0 0px 10px rgba(0,0,0,0.25), 0 4px 5px rgba(0,0,0,0.22);}
+/*.rowInnerServices:hover { box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);}
+*/
+/* ********** Booking History CSS ************ */
+
+.rowInnerBookingHistory{display: inline-flex;width: 100%;margin-top: 10px;font-size: 12px;color:#ffffff;}
+.lastDayBookingHistory{width: 32%;padding: 10px 0px;margin-right: 2px;
+  text-align: center;background-color: #64dd17;font-weight: 700;}
+.lastSevenDayBookingHistory{width: 34%;padding: 10px 0px;margin-right: 2px;
+  text-align: center;background-color: #64dd17;font-weight: 700;}
+.totalMonthBookingHistory{width: 32%;padding: 10px 0px;
+  text-align: center;background-color: #64dd17;font-weight: 700;}
+  .historyActive{background-color: #e5fd11;
+    color: #000;}
+
+
+.bookingHistoryTotalCount{width: 50%;padding: 10px 0px;border:1px solid #ccc;color:#000000;text-align: center;border-radius: 30px;font-weight: 700;}
+.bookingHistoryTotalPrice{width: 50%;padding: 10px 0px;border:1px solid #ccc;color:#000000;text-align: center;border-radius: 30px;font-weight: 700;}
+
+.rowInnerBookingHistoryListTitle{display: inline-flex;width: 100%;font-size: 12px;font-weight: 700;color:#000000;}
+.bookingHistoryIdTitle{width: 10%;padding :10px 10px;border: 1px;border-style: solid;border-color: #ededee;}
+.bookingHistoryUserNameTitle{width: 30%;padding :10px 10px;border: 1px;border-style: solid;border-color: #ededee;}
+.bookingHistoryUserStatusTitle{width: 33%;padding :10px 0px;text-align: center;border: 1px;border-style: solid;border-color: #ededee;}
+.bookingHistoryUserAmountTitle{width: 23%;padding :10px 0px;text-align: center;border: 1px;border-style: solid;border-color: #ededee;}
+
+.rowInnerBookingHistoryList{display: inline-flex;width: 100%;font-size: 12px;color:#000000;}
+.bookingHistoryId{width: 10%;padding :10px 10px;border: 1px;border-style: solid;border-color: rgb(236, 236, 236);overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}
+.bookingHistoryUserName{width: 30%;padding :10px 10px;border: 1px;border-style: solid;border-color: rgb(236, 236, 236);overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}
+.bookingHistoryUserStatus{width: 33%;padding :10px 0px;text-align: center;border: 1px;border-style: solid;border-color:rgb(236, 236, 236);overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}
+.bookingHistoryUserAmount{width: 23%;padding :10px 0px;text-align: center;border: 1px;border-style: solid;border-color:rgb(236, 236, 236);}
+
+
+/* Empty cart error */
+.apectoMallEmptyCart-title{
+  color: #000000;
+  font-size: 1.2rem;
+  line-height: 2;
+}
+.bottom-fixed-button{
+  text-align: center;
+  bottom: 0px;
+  left: 0;
+  position: fixed;
+  width: 100%;
+}
+.bottom-fixed-button .bottomButton{
+    width: 100%;
+    background-color: #64dd17;
+    color: #ffffff;
+    padding: 10px 0px;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+/* something went wrong for history */
+.somethingWentWrongHistory {
+  margin: 10% auto;
+  text-align: center;
+}
+
+/* Something Went Wrong  */
+.somethingWentWrong {
+  margin: 30% auto;
+  text-align: center;
+}
+.somethingWentWrongBooking {
+  margin: 10% auto;
+  text-align: center;
+}
+.oopsSomething {
+  color: #7a7a7a;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  font-weight: 900;
+}
+
+.oopsSomethingHistory{
+  color: #3d3d3d;
+  font-size: 1rem;
+  line-height: 1.6;
+  font-weight: 900;
+}
+.errorMsg {
+  text-align: center;
+  line-height: 2;
+  color: #777676;
+}
+.errorMsgHistory{
+  text-align: center;
+  line-height: 1.4;
+  color: #777676;
+}
+.show-password {
+    position: absolute;
+    right: 40px;
+    top: 40%;
+    transform: translateY(-50%);
+    font-size: 22px;
+    cursor: pointer;
+}
+.show-passwordLogin {
+    position: absolute;
+    right: 20px;
+    top: 40%;
+    transform: translateY(-50%);
+    font-size: 18px;
+    cursor: pointer;
+}
+.topBar{
+	position: fixed;
+    top: 0px;
+    width: 100%;
+    background-color: #000000;
+    color: #fff;
+    padding: 0.7rem 0rem;
+    display: inline-flex;
+}
+.barName{width: 68%;font-size:14px;padding: 0.4rem 0rem 0rem 0.6rem;}
+.barName .opencloseMessage{font-size: 10px;padding: 4px 0px 0px 0px;}
+.topBarShop{
+	position: fixed;
+    top: 0px;
+    width: 100%;
+    background-color: #000000;
+    color: #fff;
+    z-index: 999;
+    opacity: 1;
+    font-size: 16px;
+    display: inline-flex;
+    border-radius: 0px 0px 10px 10px;
+
+}
+.topBarName{
+    width: 70%;
+    padding: 1rem 1rem 1rem 1rem;
+}
+.topBarNotificationIcon{
+    width: 30%;
+    padding: 1rem 1rem 0rem 0rem;
+    text-align:right;
+}
+/* ************* ON OFF BUTTON ****************** */
+
+.switch {
+  position: relative;
+  height: 26px;
+  width: 80px;
+  margin: 0px auto;
+  background-color:#ffffff;
+  border-radius: 30px;
+  -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.1);
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.1);
+  display: inline-block;
+}
+
+.switch-label {
+  position: relative;
+  z-index: 2;
+  float: left;
+  width: 38px;
+  line-height: 26px;
+  font-size: 11px;
+  color: #000000 !important;
+  text-align: center;
+  cursor: pointer;
+}
+.switch-label:active {
+  font-weight: bold;
+}
+
+.switch-label-off {
+  padding-left: 2px;
+}
+
+.switch-label-on {
+  padding-right: 2px;
+}
+
+
+.switch-input {
+  display: none;
+}
+.switch-input:checked + .switch-label {
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.65);
+  text-shadow: 0 1px rgba(255, 255, 255, 0.25);
+  -webkit-transition: 0.15s ease-out;
+  -moz-transition: 0.15s ease-out;
+  -ms-transition: 0.15s ease-out;
+  -o-transition: 0.15s ease-out;
+  transition: 0.15s ease-out;
+  -webkit-transition-property: color, text-shadow;
+  -moz-transition-property: color, text-shadow;
+  -ms-transition-property: color, text-shadow;
+  -o-transition-property: color, text-shadow;
+  transition-property: color, text-shadow;
+}
+.switch-input:checked + .switch-label-on ~ .switch-selection {
+  left: 40px;
+  /* Note: left: 50%; doesn't transition in WebKit */
+}
+
+.switch-selection {
+  position: absolute;
+  z-index: 2;
+  top: 3px;
+  left: 3px;
+  display: block;
+  width: 36px;
+  height: 20px;
+  border-radius: 60px;
+  background-color: #f9c001;
+  background-image: linear-gradient(to left, #fce304, #ffe604);
+  transition: left 0.15s ease-out;
+  -webkit-transition: left 0.15s ease-out;
+  -moz-transition: left 0.15s ease-out;
+  -ms-transition: left 0.15s ease-out;
+  -o-transition: left 0.15s ease-out;
+  transition: left 0.15s ease-out;
+}
+
+
+/*************** Shop Home Page user facing app******************/
+.todayBooking{font-size: 16px;font-weight: 600;}
+.shopCardHome{
+	padding: 6px;
+}
+.shopDetailsHome{
+	width: 100%;
+	background: linear-gradient(to left, #09ceab,#0361d9 );
+  border-radius: 5px;
+  display:inline-flex;
+  padding: 10px 0px;
+}
+.shopCardHomeTitle{
+	width: 100%;
+	height: auto;
+	display: inline-flex;
+
+}
+.shopNameHome {
+    width: 70%;
+    font-size: 18px;
+    font-weight: 900;
+    padding: 1rem 0.6rem;
+    color: #fff;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.shopAppRatingHome{
+  width: 24%;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 1rem 0rem;
+  color: #ffffff;
+  text-align: center;
+    
+}
+.shopAppRatingHomeName{font-size: 100%;}
+.shopAppRatingHomeInner{
+  display: inline-flex;
+  padding-top: 6px;
+}
+.shopAddressHome {
+    width: 42%;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 1rem 0rem;
+    color: #000;
+    display: inline-flex;
+}
+.shopNameHomeBottomLine {
+    width: 32%;
+    height: 4px;
+    background-color: #ffffff;
+    color: #ffffff;
+}
+.shopCardtextHome{
+	width: 100%;
+	height: auto;
+	padding-top: 2%;
+}
+.shopCardTextTitle{
+	width: 94%;
+	height: auto;
+	display: inline-flex;
+	font-size: 12px;
+	font-weight: 500;
+	padding: 0.8rem 0rem 0.3rem 1rem;
+	color: #fff;
+}
+.shopCardTextValue{
+	width: 94%;
+	height: auto;
+	display: inline-flex;
+	font-size: 14px;
+	font-weight: 700;
+	padding:0rem 0rem 0rem 1rem;
+	color: #fff;
+}
+.shopRatingHome{width: 25%;}
+.shopRatingValueHome{width: 25%;display: inline-flex;}
+.shopDistanceHome{width: 25%;}
+.shopDistanceValueHome{width: 25%;}
+.shopBookingHome{width: 25%;text-align: center;}
+.shopBookingValueHome{width: 25%;text-align: center;}
+.shopOpenHome{width: 25%;}
+.shopOpenValueHome{width: 25%;text-align: center;}
+/* ********************** credit System ************* */
+.creditPointTitleBig{width: 24%;font-size: 2rem;font-weight: 900;padding: 1rem 0rem;color: #ffffff;text-align: center;}
+.creditPointSmallLabel{font-size: 0.6rem !important;font-weight: 400;}
+
+/* ********* simple Card ********* */
+.simpleCard{border: 1px solid #ccc;}
+/* *****************Shop Profile ************************* */
+.shopNameHomeProfile {
+  width: 100%;
+  font-size: 1.3rem;
+  font-weight: 900;
+  padding: 1rem 0rem;
+  color: #fff;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  text-align: center;
+}
+/****** Bottom Mune Start Here ********/
+.bottomMenu{
+  position:fixed;
+  bottom: -1px;
+  width: 100%;
+  height: 46px;
+  background-color: #e0e0e0;
+  padding: 0.4rem 0rem 0rem 0rem;
+  z-index: 999;
+  opacity: 1;
+}
+
+.bottomMenuContent{width: 100%;text-align: center;display: inline-flex;font-size: 10px;color: #676767;}
+.bottomMenuContentMenu{width: 25%;}
+/* 
+.bottomMenuContentMenu a:active {
+  background-color: #000000;
+  color: #ffffff;
+  padding:2px;
+  background: linear-gradient(to left, #09ceab,#0361d9 );
+} */
+/****** Bottom Mune Start End Here ********/
+/***************** Shop Complete Details *********************/
+.shopCompleteDetails{
+	height: auto;
+	padding: 10px;
+	display: block;
+}
+.shopDetail{
+	width : 100%;
+	height: auto;
+	display: inline-flex;
+}
+.shopDetailUpdate {
+  width: 16%;
+  height: auto;
+  display: inline-flex;
+  border-bottom: 1px solid #000000;
+}
+.shopDetailTitle{
+	width: 30%;
+	height: auto;
+	padding: 0.4em 0.2em;
+  font-size: 11px;
+  color: #828181;
+}
+.shopCompleteDetailsName{
+	width: 100%;
+	line-height: 1;
+	font-size: 14px;
+	font-weight: 900;
+}
+.shopCompleteDetails-Details{
+	width: 70%;
+	height: auto;
+	padding: 0.4em 0.3em;
+	font-size: 13px;
+	color: #000;
+	font-weight: 500;
+}
+
+
+
+/**** Shop Complete Details End Here *****/
+/*************  Cart Service List Start *****************/
+.profilecartRow {height: auto;padding: 16px;margin: 0px;}
+.cartRow{width: 100%;height: auto;padding: 16px;margin: 0px;}
+.cartServiceList{
+	width: 100%;
+	height: auto;
+	padding: 6px;
+	display: block;
+}
+.cartServiceListDetails{
+	width: 100%;
+	height: auto;
+	border:1px solid #cbcaca;
+	border-radius: 5px;
+	display: inline-flex;
+	padding: 6px;
+	margin: 3px 0px;
+	color: #000;
+}
+.cartServiceListDetailsName{
+	width: 60%;
+	height: auto;
+	line-height: 1;
+	font-size: 18px;
+	font-weight: 500;
+}
+.cartServiceListDetailsPrice{
+	width: 20%;
+	height: auto;
+	line-height: 1;
+	font-size: 18px;
+	font-weight: 500;
+	text-align: right;
+	padding-top: 2px;
+}
+.cartServiceListRemove{
+	width: 20%;
+	height: auto;
+    padding: 4px 4px;
+    color: #ffffff;
+    background-color: #e01212;
+    border-radius: 6px;
+    border: 1px solid;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    margin: 0px 0px 0px 1.7em;
+}
+.cartAddMore{width: 100%;height: auto;padding: 0px;margin: auto;display:block;text-align: center;}
+.cartAddMoreButton{
+	width: 30%;
+	height: auto;
+    padding: 10px 4px;
+    color: #ffffff;
+    background-color: #24b245;
+    border-radius: 6px;
+    border: 1px solid;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    margin: 0px 23% 0px 35%;
+}
+.cartTotal{width: 90%;height: auto;padding: 0px;border:1px solid #177dff;border-radius: 10px;margin: 5%;}
+.serviceCart{width: 93%;height: auto;padding: 10px;display: inline-flex;}
+.serviceCartTitle{width: 93%;height: auto;padding: 10px;display: inline-flex;background-color: #aaa;border-radius: 10px 10px 0px 0px;}
+
+.serviceNameTitle{width: 50%;height: auto;font-size: 14px;font-weight: 900;}
+.serviceName{width: 50%;height: auto;font-size: 14px;}
+.servicePrice{width: 50%;height: auto;font-size: 14px;text-align: right;font-weight: 700;}
+.serviceTotalName{width: 50%;height: auto;font-size: 16px;font-weight: 700;}
+.serviceTotalPrice{width: 90%;height: auto;font-size: 16px;font-weight: 500;text-align: left;}
+.cartNext{width: 30%;height: auto;padding: 10px 4px;color: #ffffff;background-color: #000000;border-radius: 6px;border: 1px solid;font-size: 14px;font-weight: 600;
+    text-align: center;margin: 0px 23% 0px 35%;}
+
+/*************  Cart Service List End Here *****************/
+/************* Search Location Bar ******************/
+.searchLocationBar {height: 40px;background-color: transparent;padding: 0rem 10px;margin-top: 10px;}
+
+/************* Search Location Bar End Here ******************/
+/*********** Search Shop Button *************/
+.shopSearch {
+  width: 100%;
+  display: flex;
+  border: 1px solid #cccccc;
+  border-radius: 30px;
+}
+.shopSearchButton {
+    width: 14%;
+    height: 30px;
+    background: transparent;
+    text-align: center;
+    color: #cccccc;
+    cursor: pointer;
+    font-size: 20px;
+    /* border-left: 1px solid; */
+}
+.shopSearchTerm {
+    width: 88%;
+    height: 30px;
+    padding: 0px 0px 0px 4%;
+    outline: none;
+    color: #000000;
+    font-size: 14px;
+    border: 0px;
+    border-radius: 30px;
+}
+.locationBar{
+	height: 42px;
+	background-color: #ffffff;
+	padding: 0rem 0.4rem;
+	margin-top: 60px;
+}
+.searchButton {
+  width: 60px;
+  height: 40px;
+  border: 1px;
+  border-style: solid;
+  border-color: #aaa;
+  background: #fff;
+  text-align: center;
+  color: #000;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+
+.locationBar{
+	width: 100%;
+	height: 42px;
+	background-color: #ffffff;
+	padding: 0rem 0.4rem;
+	margin-top: 60px;
+}
+
+.searchTerm:focus{
+  color: #000000;
+}
+
+.displayTooltip {
+  position: relative ;
+}
+/*************  Shop Service List End Here *****************/
+.productSearch{position: absolute;z-index: 999;width: 100%;height: auto;background-color: rgb(255 255 255 / 81%);padding: 0 0 4% 0;}
+.productSearchNane{position: absolute;z-index: 999;width: 100%;height: auto;background-color: rgb(0 0 0);padding: 0;}
+.shopServiceListSearch{padding: 3% 2% 0% 3%;
+  display: block;z-index: 999;}
+.shopServiceListDetailsSearch{
+      width: 95%;
+      height: auto;
+      border:1px solid #cbcaca;
+      background-color: #ffffff;
+      border-radius: 5px;
+      display: inline-flex;
+      padding: 0.6rem 0.4rem;
+      color: #000;
+  }
+/***** Resize the wrap to see the search bar change! ********/
+.wrap{
+  width: 100%;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/************* Send Message ******************/
+.rowInnerPopup{display: inline-flex;width: 94%;margin-left: 6%;}
+.popup {
+  position: fixed;
+  width: 100%;
+  max-height: 100%;
+  overflow-y: scroll !important;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  background-color: rgba(0,0,0, 0.5);
+}
+.popup_inner {
+    position: absolute;
+    overflow-y: scroll !important;
+    left: 10%;
+    right: 10%;
+    bottom: 41%;
+    margin: auto;
+    border-radius:10px;
+    background: white;
+    padding: 20px;
+
+}
+.popup_innerMessage {
+  position: absolute;
+  left: 10%;
+  right: 10%;
+  bottom: 41%;
+  margin: auto;
+  border-radius:10px;
+  background: white;
+  padding:10px  20px;
+  font-size: 14px;
+
+}
+.textareastyle{
+  resize: vertical;
+  width: 100%;
+  height: 50px;
+  margin-top: 10px;
+  margin-bottom: 6%;
+  border: 1px solid #777;
+  border-radius: 4px;
+}
+.popMessageSendTitle{text-align: center;font-weight: 700;}
+.popMessageSendTitleSmall{text-align: left;}
+.popMessageSend{
+  width: 44%;
+    padding: 8px;
+    color: #ffffff;
+    background-color: #64dd17;
+    margin-right: 8%;
+    border: 0px;
+    border-radius: 8px;
+    font-weight: 600;
+}
+.popMessageCancel{
+  width: 44%;
+    padding: 8px;
+    color: #000000;
+    background-color: #ffffff;
+    border: 1px solid #f90303;
+    border-radius: 6px;
+    color: #f90303;
+    font-weight: 600;
+}
+/* *********** POP UP DELETE BOX ************* */
+.imageRowIcon{width: 100%;height: 31px;text-align: center;margin-bottom: 0%;}
+.popup_innerDelete{
+      position: absolute;
+      left: 10%;
+      right: 10%;
+      top: 27%;
+      margin: auto;
+      border-radius: 10px;
+      background: white;
+      padding: 16px;
+      height: auto;
+}
+.popMessageDelete{
+    width: 44%;
+    padding: 4px 8px;
+    color: #ff0202;
+    background-color: #ffffff;
+    margin-right: 8%;
+    border: 1px solid #ff0202;
+    border-radius: 8px;
+}
+.popMessageCancelDelete{
+    width: 44%;
+    padding: 4px 8px;
+    color: #008d00;
+    border: 1px solid #008d00;
+    background-color: #ffffff;
+    border-radius: 6px;
+}
+.rowInnerPopupDelete {
+  display: inline-flex;
+  width: 95%;
+  margin-left: 6%;
+  margin-top: 14%;
+}
+.warningRowImage{width: 100%;height: 31px;text-align: center;margin-bottom: 8%;}
+.thankyouRowImage{width: 100%;text-align: center;margin-top: 1%;}
+/* ********************** POP MESSAGE CLOSE SHOP ******************************** */
+
+.popMessageCloseShop{
+    width: 44%;
+    padding: 4px 8px;
+    color: #b50202;
+    background-color: #ffffff;
+    margin-right: 8%;
+    border: 1px solid #b50202;
+    border-radius: 8px;
+}
+.popMessageCancelCloseShop{
+    width: 44%;
+    padding: 4px 8px;
+    color: #008d00;
+    border: 1px solid #008d00;
+    background-color: #ffffff;
+    border-radius: 6px;
+}
+/* ************** POP ADD MORE CLIENT ***************** */
+.popup_innerSelect{
+  position: absolute;
+  left: 5%;
+  right: 5%;
+  bottom: 20%;
+  margin: auto;
+  border-radius: 10px;
+  background: white;
+  padding: 20px;
+  }
+  .popMessageSelect{
+    width: 44%;
+    padding: 8px;
+    color: #008d00;
+  /* background-color: #64dd17; */
+    border: 1px solid #008d00;
+    border-radius: 4px;
+  }
+  .popMessageCancelSelect{
+    width: 44%;
+    padding: 8px;
+    color: #ff0000;
+    border: 1px solid #ff0000;
+    background-color: #ffffff;
+    border-radius: 4px;
+    margin-right: 8%;
+  }
+  .rowInnerPopupSelect {
+    display: inline-flex;
+    width: 90%;
+    bottom:20px;
+    position: absolute;
+  }
+  .popMessageSelectTime{
+    padding: 4px;
+    color: #ffffff;
+    background-color: #64dd17;
+    /* background: linear-gradient(to left, #09ceab,#0361d9 ); */
+    border: 0px;
+    border-radius: 3px;
+    margin-right: 2%;
+  }
+  .popMessageSelectTime input[type="radio"]{
+    opacity: 0;
+    border: 0;
+    overflow: hidden;
+}
+.popMessageSelectTime input[type="radio"]:checked{
+  opacity: 0;
+  border: 0;
+  overflow: hidden;
+}
+  
+  .popMessageSelectTime label {
+    background-color: #f1f1f1;
+    color: #000000 !important;
+    line-height: 1;
+    text-align: center;
+    padding: 8px 16px;
+    transition: all 0.1s ease-in-out;
+    border-radius: 3px;
+    border: 1px solid #c3c3c3;
+}
+
+  .popMessageSelectTime label:hover {
+    cursor: pointer;
+    background-color: #000000;
+    color: #ffffff !important;
+    border-radius: 3px;
+}
+
+  
+
+
+
+.popup_inner h1{font-size:1.8rem;}
+.cartMyBookingButton {
+    width: 60%;
+    display: inline-block;
+    background-color: #0c0c0c;
+    padding: 21px 0px 21px 0px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 22px;
+    position: absolute;
+    bottom: -30px;
+    left: 20%;
+    border: 0px;
+    text-align: center;
+}
+.cartMyBookingButtonIcon {
+    width: 33%;
+    display: inline-block;
+    background-color: #7222d0;
+    padding: 16px;
+    border-radius: 60px;
+    color: #fff;
+    font-size: 21px;
+    position: absolute;
+    top: -52px;
+    left: 34%;
+}
+/**************Confirm Booking End Here *************************/
+.bottomMenuContent a{color: #000;}
+/************ Profile Button *************/
+.profileUpdateButton{ 
+    width: 100%;
+    height: auto;
+    padding: 12px 0px;
+    color: #ffffff;
+    background-color: #33691E;
+    border-radius: 30px;
+    border: 1px solid;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+/************ Profile Button End Here *************/
+/* CHECKBOX TYPE 2 ---------------------------------------------------- */
+/* ==================================================================== */
+
+input[id^="checkbox-2-"] + label {
+	background-color: #64dd17;
+	padding: 10px 10px 10px 32px;
+	border-radius: 1000px;
+	position: relative;
+	/*border-top: 1px solid #ECA14F; */
+  width: 100%;
+  color: #000000 !important;
+  font-weight: 300;
+  text-align: center;
+	/* border-bottom: 1px solid #552B09; */
+}
+
+[id^="checkbox-2-"] + label:hover  {
+	border-top: 1px solid #FC8C1E;
+    font-weight: 500;
+}
+
+[id^="checkbox-2-"] + label:active  {
+	border-top: none;
+	background: #e5ab0a;
+  font-weight: 500;
+	box-shadow: inset 0 3px 8px rgba(129, 69, 13, 0.3), inset 0 -50px 37px -30px rgba(255, 222, 197, 0.07), 0 0 13px rgba(0, 0, 0, 0.6);	
+}
+
+[id^="checkbox-2-"] + label:after {
+	content: ' ';
+	border-radius: 100px;
+	width: 10%;
+    position: absolute;
+    top: 20%;
+    left: 3%;
+    box-shadow: inset 0px 16px 40px rgba(0, 0, 0, 0.4);
+    height: 60%;
+}
+
+[id^="checkbox-2-"] + label:before {
+	content: ' ';
+	border-radius: 100px;
+	width: 6%;
+  position: absolute;
+  top: 32%;
+  left: 5%;
+  z-index: 999;
+  box-shadow: inset 0px 16px 40px #FFF;
+  height: 36%;
+  display: none;
+}
+
+[id^="checkbox-2-"]:checked + label:before {
+	display: block;
+}
+/*********  Checkbox style End Here ********/
+
+/*********  Checkbox style ********/
+/* The container */
+.mycheckbox {
+  display: block;
+  position: relative;
+  padding: 5px 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  margin-left: 10%;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.mycheckbox input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.mycheckbox:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.mycheckbox input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.mycheckbox input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.mycheckbox .checkmark:after {
+  left: 7px;
+  top: 2px;
+  width: 6px;
+  height: 12px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+/*********  Checkbox style End Here 902070091212********/
+
+
+@media screen and (max-width: 320px) {
+	.form-group {margin-bottom: 0;padding: 2px 0px;}
+	.shopImage{height: 120px;}
+	.imageShopImg{height: 120px;}
+	.shopDetails{height: 120px;}
+	.shopBooking {padding: 0.7rem 0.9rem;}
+	.shopCardtext {padding-top: 0%;}
+	.shopName{font-size: 16px;}
+	.shopRating {font-size: 12px;}
+	.shopDistance {font-size: 12px;}
+	.shopBooking {font-size: 12px;}
+	.shopRatingValue {font-size: 16px;}
+	.shopDistanceValue {font-size: 16px;}
+	.shopBookingValue {font-size: 16px;}
+
+	.shopAddressHome{font-size: 14px;}
+	.shopCardTextValue{font-size: 14px;}
+	.shopCardTextTitle{font-size: 14px;}
+	.iconStar {font-size: 12px;}
+	.shopCardtextHome {padding-top: 4%;}
+	.shopServiceListDetailsName{font-size: 16px;}
+	.shopServiceListDetailsPrice{font-size: 14px;}
+	.shopServiceListAdd{font-size: 12px;}
+
+	.cartServiceListDetailsName{font-size: 16px;}
+	.cartServiceListDetailsPrice{font-size: 14px;}
+	.cartServiceListRemove{font-size: 12px;}
+
+	.cartAllBookingTitle{font-size: 1.2em;}
+	.cartNo {padding: 5px 0px 0px 0px;font-weight: 500;}
+	.cartIcon {padding: 5px 2px 0px 2px;}
+	.cartSeat {font-size: 13px;}
+	.popup_inner h1{font-size:1.8rem;}
+	.cartMyBookingButtonIcon {width: 43%;left: 30%;}
+  .popup_inner {top: 25%;bottom: 41%;}
+  .marginRight3{margin-right: 6%;}
+
+}
+@media screen and (min-width: 360px) {
+  .iconWhiteCheck {font-size: 90px;}
+}
+@media screen and (max-width:320px){
+  .customerMobile{width: 70%;margin-left: 4%;}
+}
+@media screen and (max-width: 380px) and (min-width: 328px) {
+	.shopServiceListDetailsName{font-size: 16px;}
+	.shopServiceListDetailsPrice{font-size: 14px;}
+	.shopServiceListAdd{font-size: 12px;}
+
+	.cartServiceListDetailsName{font-size: 16px;}
+	.cartServiceListDetailsPrice{font-size: 14px;}
+	.cartServiceListRemove{font-size: 12px;}
+
+	.cartAllBookingTitle{font-size: 1.2em;}
+	.cartNo {padding: 5px 0px 0px 0px;font-weight: 500;}
+	.cartIcon {padding: 5px 2px 0px 2px;}
+	.cartSeat {font-size: 15px;}
+	.popup_inner h1{font-size:1.8rem;}
+	.iconWhiteCheck {font-size: 75px;}
+	.cartMyBookingButtonIcon {width: 38%;left: 31%;}
+  .popup_inner {top: 25%;}
+  .bookingMessage .buttonMessage {padding: 2px 6px;}
+}
+@media screen and (min-width: 410px) {
+	.popup_inner h1{font-size:1.8rem;}
+	.cartMyBookingButtonIcon {width: 34%;}
+  .iconWhiteCheck {font-size: 80px;}
+  .bookingMessage .buttonMessage {padding: 2px 6px;}
+
+}
+@media only screen and (min-width: 600px)  {
+	.cartMyBookingButtonIcon{width: 26%;}
+	.popup_inner h1{font-size:1.8rem;}
+  .cartIcon {width: 10%;}
+  .bookingMessage .buttonMessage {padding: 2px 6px;}
+	
+}
+
+
+@media only screen and (max-width: 768px)and (min-width: 600px) {
+  .cartIcon {width: 8%;}
+  .notify-badge[data-badge]:after {
+    right: 1%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+.shopCardtext {padding-top: 2%;}
+
+}
+@media screen and (max-width: 290px) {
+.switch-label {width: 32px;font-size: 11px !important;}
+.switch-input:checked + .switch-label-on ~ .switch-selection {left: 35px;}
+.shopNameHome {font-size: 16px;}
+
+.bookingView {width: 15%;}
+.bookingMessage {width: 15%;}
+
+.textCenter {font-size: 12px;}
+.shopNameHomeProfile {font-size: 1rem;}
+.textRight {width: 96%;}
+.shopCompleteDetails-Details{font-size: 11px;}
+.iconLogout {font-size: 12px;}
+
+.selectServiceType{color: #777676;font-size: 12px;}
+.modal > .content {padding: 0px;text-align: center;}
+.model > .content >p {margin-bottom: 0rem;}
+.popup_innerDelete {left: 6%;right: 6%;}
+.rowInnerServices {font-size: 10px;}
+.topBarShop {font-size: 12px;}
+.topBar {padding: 0.4rem 0rem;}
+.spinBoxmy { margin: 35% auto 0% auto;}
+.cssLoader ul li {font-size: 1.4em;}
+.bookManual {width: 70%;font-size: 14px;}
+.oopsSomething {font-size: 1rem;}
+.oopsSomethingHistory{font-size: 0.8rem;}
+.bottomMenu {height: 36px;}
+.bottomIcon {font-size: 20px;padding-bottom: 3px;}
+.icon-trashBooking {margin-top: 4px;}
+.radio-toolbar label {font-size: 12px;padding: 8px 11px;}
+
+}
